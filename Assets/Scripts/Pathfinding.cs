@@ -5,16 +5,23 @@ using UnityEngine;
 public class Pathfinding : MonoBehaviour
 {
 
-    public Nodo inicio;
-    public Nodo final;
-    
+    public static Pathfinding instance;
+
+//    public Nodo inicio;
+//    public Nodo final;
+
+    void Start() {
+        instance = this;
+    }
+
     // Start is called before the first frame update
     void Update()
     {
-        AStar(inicio, final);
+
     }
 
-    void AStar(Nodo ini,Nodo fin) {
+    public CaminoCompleto AStar(Nodo ini,Nodo fin) {
+        CaminoCompleto movimientos = new CaminoCompleto();
 
         List<Nodo> posibles = new List<Nodo>();
         List<Nodo> revisados = new List<Nodo>();
@@ -36,8 +43,7 @@ public class Pathfinding : MonoBehaviour
             revisados.Add(actual);
 
             if (actual==fin) {
-                MostrarCamino(inicio, final);
-                return;
+                return FinalizarCamino(ini, fin); ;
             }
 
             foreach (var item in actual.adjacentes) {
@@ -57,23 +63,48 @@ public class Pathfinding : MonoBehaviour
                 }
             }
         }
+        //Return Empty
+        return movimientos;
     }
 
-    void MostrarCamino(Nodo i, Nodo f) {
-        List<Nodo> camino = new List<Nodo>();
+    CaminoCompleto FinalizarCamino(Nodo i, Nodo f) {
+        CaminoCompleto movimientos = new CaminoCompleto();
         Nodo actual = f;
-
+        
         while (actual != i) {
-            camino.Add(actual);
-            actual.GetTransform().GetChild(0).gameObject.SetActive(false);
+            //actual.GetTransform().GetChild(0).gameObject.SetActive(false);
+            movimientos.caminoNodo.Add(actual);
+            movimientos.caminoDireccion.Add(AgregarDireccion(actual.transform.position, actual.direccion.transform.position));
             actual = actual.direccion;
         }
-        camino.Add(actual);
-        actual.GetTransform().GetChild(0).gameObject.SetActive(false);
+
+        return movimientos;
+    }
+
+    string AgregarDireccion(Vector3 a, Vector3 b) {
+        string output="";
+        float dX = b.x - a.x;
+        float dZ = b.z - a.z;
+
+        if (dX < 0) output = "Right";
+        if (dX > 0) output = "Left";
+        if (dZ < 0) output = "Up";
+        if (dZ > 0) output = "Down";
+
+        return output;
     }
 
     int CalcDistancia(Nodo a,Nodo b) {
         return (int) Vector3.Distance(a.GetTransform().position, b.GetTransform().position);
     }
 
+
+
+    //bfs
+    public CaminoCompleto BFS() {
+        CaminoCompleto movimientos = new CaminoCompleto();
+
+
+        return movimientos;
+    }
 }

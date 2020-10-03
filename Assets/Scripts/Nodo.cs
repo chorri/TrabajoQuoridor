@@ -9,6 +9,8 @@ public class Nodo : MonoBehaviour
     public TextMesh trabajoTexto;
     public int distancia = 0;
     public TextMesh distanciaTexto;
+    public TextMesh totalTexto;
+
     public Nodo direccion;
 
     public List<Nodo> adjacentes;
@@ -21,6 +23,7 @@ public class Nodo : MonoBehaviour
     void Start()
     {
         objeto = this.transform;
+        totalTexto = transform.FindChild("Total").GetComponent<TextMesh>();
     }
 
     // Update is called once per frame
@@ -34,6 +37,7 @@ public class Nodo : MonoBehaviour
     }
 
     public int CostoTotal() {
+        totalTexto.text = (trabajo + distancia).ToString();
         return trabajo + distancia;
     }
 
@@ -42,7 +46,7 @@ public class Nodo : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.tag != "Finish" && other.transform.parent != this.transform) {
+        if (other.tag == "Nodo" && other.transform.parent != this.transform) {
             adjacentes.Add(other.transform.parent.GetComponent<Nodo>());
         }
         
