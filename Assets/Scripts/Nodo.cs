@@ -23,7 +23,7 @@ public class Nodo : MonoBehaviour
     void Start()
     {
         objeto = this.transform;
-        totalTexto = transform.FindChild("Total").GetComponent<TextMesh>();
+        totalTexto = transform.Find("Total").GetComponent<TextMesh>();
     }
 
     // Update is called once per frame
