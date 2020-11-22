@@ -19,7 +19,7 @@ public class CaminoCompleto
         }
     }
 
-    public void ShowPath(int duration) {
+    public void ShowPath(float duration) {
         foreach (Nodo actual in caminoNodo) {
             Debug.DrawLine(actual.transform.position + Vector3.up, actual.direccion.transform.position + Vector3.up, Color.cyan, duration);
         }

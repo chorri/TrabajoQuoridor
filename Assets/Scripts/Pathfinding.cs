@@ -30,7 +30,14 @@ public class Pathfinding : MonoBehaviour
         //Mientras no se explore el fin
         while (!revisados.Contains(fin)) {
             //Definir cual es el nodo actual entre todos los nodos posibles
+            
+            if (posibles.Count <=0) {
+                return movimientos;
+            }
+
             Nodo actual = posibles[0];
+            
+
             for (int i = 0; i < posibles.Count; i++) {
                 if (posibles[i].CostoTotal() < actual.CostoTotal() ||
                     posibles[i].CostoTotal() == actual.CostoTotal() && posibles[i].distancia<actual.distancia) {

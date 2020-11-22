@@ -53,21 +53,25 @@ public class IA : MonoBehaviour
                     todosCaminos.Add(temp);
 
                     if (caminoObjetivo.caminoNodo.Count == 0 || temp.caminoNodo.Count < caminoObjetivo.caminoNodo.Count) {
-                        caminoObjetivo = temp;
+                        if (temp.caminoNodo.Contains(item))
+                        {
+                            caminoObjetivo = temp;
+                        }
                     }
                 }
                 timeStart = Time.time;
                 currentState = EstadoIA.Move;
                 break;
             case EstadoIA.Move:
-                if (todosCaminos.Count > 0) {
-                    if (Time.time - timeStart > maxTime) {
-                        todosCaminos[todosCaminos.Count - 1].ShowPath(1);
-                        todosCaminos[todosCaminos.Count - 1].ShowDirection();
-                        todosCaminos.RemoveAt(todosCaminos.Count - 1);
-                        timeStart = Time.time;
-                    }
-                } else {
+//                if (todosCaminos.Count > 0) {
+//                    if (Time.time - timeStart > maxTime*0.2f) {
+//                        Debug.Log("----");
+//                        todosCaminos[todosCaminos.Count - 1].ShowPath(0.5f);
+//                        todosCaminos[todosCaminos.Count - 1].ShowDirection();
+//                        todosCaminos.RemoveAt(todosCaminos.Count - 1);
+//                        timeStart = Time.time;
+//                    }
+//                } else {
                     //Vector3 objetivo = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 1].transform.position;
                     //if (Vector3.Distance(transform.position, objetivo) < 0.1) {
                     //    transform.position = objetivo;
@@ -80,7 +84,7 @@ public class IA : MonoBehaviour
                         transform.position = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 1].transform.position;
                         currentState = EstadoIA.Wait;
                     }
-                }
+//                }
                 
                 break;
             default:
