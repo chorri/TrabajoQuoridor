@@ -6,6 +6,12 @@ using UnityEngine;
 
 public class WallPlacer : MonoBehaviour
 {
+    TurnManager tM;
+
+    private void Start()
+    {
+        tM = TurnManager.instance;
+    }
 
     public void PlaceWall()
     {
@@ -17,10 +23,16 @@ public class WallPlacer : MonoBehaviour
 
     //Unity Methods
 
-    private void OnMouseOver() {        
-        if (Input.GetKeyDown(KeyCode.Mouse0)) {
-            PlaceWall();
+    private void OnMouseOver() {
+        if (tM.players[tM.currentPlayer].playerControlled && tM.players[tM.currentPlayer].currentState == EstadoIA.Act)
+        {
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                PlaceWall();
+                tM.players[tM.currentPlayer].ChangePlayerState(EstadoIA.Check);
+            }
         }
+        
     }
 
     private void OnMouseEnter()

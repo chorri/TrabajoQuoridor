@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class WallManager : MonoBehaviour
 {
+    public List<WallPlacer> vPlacers;
+    public List<WallPlacer> hPlacers;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +18,7 @@ public class WallManager : MonoBehaviour
     {
         
     }
+
+    //[vPlacers][hPlacers][TilePos][Action]
+    public string[][][][] wallPlaces;
 }

@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 2982919}
   - component: {fileID: 2982918}
   m_Layer: 0
-  m_Name: Center (49)
+  m_Name: Tile44
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +376,7 @@ Transform:
   - {fileID: 930463543}
   - {fileID: 160055975}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 49
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2982918
 Rigidbody:
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 7039091}
   - component: {fileID: 7039090}
   m_Layer: 0
-  m_Name: Center (56)
+  m_Name: Tile73
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -603,7 +603,7 @@ Transform:
   - {fileID: 1956419737}
   - {fileID: 1035468270}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 56
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &7039090
 Rigidbody:
@@ -1419,7 +1419,7 @@ GameObject:
   - component: {fileID: 18206966}
   - component: {fileID: 18206965}
   m_Layer: 0
-  m_Name: Center (41)
+  m_Name: Tile50
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1441,7 +1441,7 @@ Transform:
   - {fileID: 730833544}
   - {fileID: 2014463458}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 41
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &18206965
 Rigidbody:
@@ -2032,7 +2032,7 @@ GameObject:
   - component: {fileID: 31557440}
   - component: {fileID: 31557439}
   m_Layer: 0
-  m_Name: Center (64)
+  m_Name: Tile67
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2054,7 +2054,7 @@ Transform:
   - {fileID: 76706860}
   - {fileID: 1371096309}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 64
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &31557439
 Rigidbody:
@@ -2268,7 +2268,7 @@ GameObject:
   - component: {fileID: 32853242}
   - component: {fileID: 32853241}
   m_Layer: 0
-  m_Name: Center (1)
+  m_Name: Tile1
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3522,7 +3522,7 @@ GameObject:
   - component: {fileID: 55272101}
   - component: {fileID: 55272100}
   m_Layer: 0
-  m_Name: Center (67)
+  m_Name: Tile68
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3544,7 +3544,7 @@ Transform:
   - {fileID: 1059117743}
   - {fileID: 1301113465}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 67
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &55272100
 Rigidbody:
@@ -4425,7 +4425,7 @@ GameObject:
   - component: {fileID: 62562953}
   - component: {fileID: 62562952}
   m_Layer: 0
-  m_Name: Center (17)
+  m_Name: Tile21
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4447,7 +4447,7 @@ Transform:
   - {fileID: 752380673}
   - {fileID: 1861462921}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 17
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &62562952
 Rigidbody:
@@ -4573,7 +4573,7 @@ GameObject:
   - component: {fileID: 64519583}
   - component: {fileID: 64519582}
   m_Layer: 0
-  m_Name: Center (48)
+  m_Name: Tile35
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4595,7 +4595,7 @@ Transform:
   - {fileID: 779484569}
   - {fileID: 1745313397}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 48
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &64519582
 Rigidbody:
@@ -5304,7 +5304,7 @@ GameObject:
   - component: {fileID: 76905706}
   - component: {fileID: 76905705}
   m_Layer: 0
-  m_Name: Center (11)
+  m_Name: Tile23
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5326,7 +5326,7 @@ Transform:
   - {fileID: 775670268}
   - {fileID: 373396261}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 14
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &76905705
 Rigidbody:
@@ -5981,7 +5981,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &95413059
 GameObject:
@@ -6617,7 +6617,7 @@ GameObject:
   - component: {fileID: 109166381}
   - component: {fileID: 109166380}
   m_Layer: 0
-  m_Name: Center (65)
+  m_Name: Tile76
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6639,7 +6639,7 @@ Transform:
   - {fileID: 263955558}
   - {fileID: 1742911944}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 65
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &109166380
 Rigidbody:
@@ -7597,7 +7597,7 @@ GameObject:
   - component: {fileID: 125713871}
   - component: {fileID: 125713870}
   m_Layer: 0
-  m_Name: Center (52)
+  m_Name: Tile42
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7619,7 +7619,7 @@ Transform:
   - {fileID: 754911734}
   - {fileID: 364867081}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 52
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &125713870
 Rigidbody:
@@ -9449,7 +9449,7 @@ GameObject:
   - component: {fileID: 163743733}
   - component: {fileID: 163743732}
   m_Layer: 0
-  m_Name: Center (42)
+  m_Name: Tile30
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9471,7 +9471,7 @@ Transform:
   - {fileID: 784266005}
   - {fileID: 41282693}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 42
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &163743732
 Rigidbody:
@@ -10165,7 +10165,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 72.284004, y: -59.208004, z: 114.844}
 --- !u!1 &170441774
 GameObject:
@@ -10294,7 +10294,7 @@ GameObject:
   - component: {fileID: 175003599}
   - component: {fileID: 175003598}
   m_Layer: 0
-  m_Name: Center (36)
+  m_Name: Tile31
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10316,7 +10316,7 @@ Transform:
   - {fileID: 775964670}
   - {fileID: 101723324}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 36
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &175003598
 Rigidbody:
@@ -10442,7 +10442,7 @@ GameObject:
   - component: {fileID: 176571610}
   - component: {fileID: 176571609}
   m_Layer: 0
-  m_Name: Center (16)
+  m_Name: Tile12
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10464,7 +10464,7 @@ Transform:
   - {fileID: 335300370}
   - {fileID: 201517101}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 16
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &176571609
 Rigidbody:
@@ -10928,7 +10928,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180140972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 114}
+  m_LocalPosition: {x: 0, y: 0, z: 8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2074492323}
@@ -10936,7 +10936,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -367.3, y: -27.75}
+  m_AnchoredPosition: {x: -141.1, y: -1.6}
   m_SizeDelta: {x: 221.3, y: 279.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &180140974
@@ -11844,7 +11844,7 @@ GameObject:
   - component: {fileID: 192765555}
   - component: {fileID: 192765554}
   m_Layer: 0
-  m_Name: Center (45)
+  m_Name: Tile34
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11866,7 +11866,7 @@ Transform:
   - {fileID: 228923102}
   - {fileID: 540954402}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 45
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &192765554
 Rigidbody:
@@ -14421,7 +14421,7 @@ GameObject:
   - component: {fileID: 230085832}
   - component: {fileID: 230085831}
   m_Layer: 0
-  m_Name: Center (23)
+  m_Name: Tile26
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14443,7 +14443,7 @@ Transform:
   - {fileID: 897861111}
   - {fileID: 416823723}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 23
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &230085831
 Rigidbody:
@@ -17926,7 +17926,7 @@ GameObject:
   - component: {fileID: 275364573}
   - component: {fileID: 275364572}
   m_Layer: 0
-  m_Name: Center (35)
+  m_Name: Tile45
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17948,7 +17948,7 @@ Transform:
   - {fileID: 940932793}
   - {fileID: 552571436}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 35
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &275364572
 Rigidbody:
@@ -21315,7 +21315,7 @@ GameObject:
   - component: {fileID: 346203402}
   - component: {fileID: 346203401}
   m_Layer: 0
-  m_Name: Center (75)
+  m_Name: Tile62
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21337,7 +21337,7 @@ Transform:
   - {fileID: 1386150476}
   - {fileID: 721275464}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 75
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &346203401
 Rigidbody:
@@ -22255,6 +22255,81 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &364013958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364013959}
+  - component: {fileID: 364013962}
+  - component: {fileID: 364013961}
+  - component: {fileID: 364013960}
+  m_Layer: 0
+  m_Name: Objetivos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &364013959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364013958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: -24.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1906469985}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &364013960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364013958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca44ab8edb3eed040b26e0fbd1bd8c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  padre: {fileID: 1906469986}
+--- !u!65 &364013961
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364013958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 26, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &364013962
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364013958}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &364144899
 GameObject:
   m_ObjectHideFlags: 0
@@ -22334,6 +22409,181 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364144899}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &364148498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364148499}
+  - component: {fileID: 364148500}
+  m_Layer: 0
+  m_Name: WallPlacers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &364148499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364148498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1972131442}
+  - {fileID: 1549947850}
+  m_Father: {fileID: 1548107421}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &364148500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364148498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8138ad8e6dff97d4fa7d019ed3f8d25b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vPlacers:
+  - {fileID: 1052384911}
+  - {fileID: 269294992}
+  - {fileID: 352926488}
+  - {fileID: 1271734220}
+  - {fileID: 2075560105}
+  - {fileID: 428292126}
+  - {fileID: 471998575}
+  - {fileID: 598358086}
+  - {fileID: 421989289}
+  - {fileID: 630746307}
+  - {fileID: 1609155116}
+  - {fileID: 1628535977}
+  - {fileID: 1635268626}
+  - {fileID: 1777191869}
+  - {fileID: 568633431}
+  - {fileID: 1171503481}
+  - {fileID: 1265743234}
+  - {fileID: 482485815}
+  - {fileID: 307103208}
+  - {fileID: 1642613742}
+  - {fileID: 934203323}
+  - {fileID: 1790134488}
+  - {fileID: 1300683183}
+  - {fileID: 1885701136}
+  - {fileID: 884991175}
+  - {fileID: 243814893}
+  - {fileID: 7195518}
+  - {fileID: 644240076}
+  - {fileID: 1906663015}
+  - {fileID: 1566313204}
+  - {fileID: 2133831347}
+  - {fileID: 1218823559}
+  - {fileID: 446927124}
+  - {fileID: 2017222321}
+  - {fileID: 1379895604}
+  - {fileID: 799482844}
+  - {fileID: 1295508336}
+  - {fileID: 1787796999}
+  - {fileID: 1859883905}
+  - {fileID: 429288477}
+  - {fileID: 808943478}
+  - {fileID: 1588651070}
+  - {fileID: 1641616347}
+  - {fileID: 1602712206}
+  - {fileID: 945183277}
+  - {fileID: 1789645706}
+  - {fileID: 680942975}
+  - {fileID: 73224865}
+  - {fileID: 1388555319}
+  - {fileID: 1736769125}
+  - {fileID: 196588712}
+  - {fileID: 1034143352}
+  - {fileID: 562580063}
+  - {fileID: 1095522620}
+  - {fileID: 195265292}
+  - {fileID: 1040685773}
+  - {fileID: 1764497838}
+  - {fileID: 1000450724}
+  - {fileID: 1362367512}
+  - {fileID: 581451632}
+  - {fileID: 663444620}
+  - {fileID: 1069842804}
+  - {fileID: 803353987}
+  - {fileID: 382051784}
+  hPlacers:
+  - {fileID: 625820972}
+  - {fileID: 1274951054}
+  - {fileID: 1323617057}
+  - {fileID: 341841193}
+  - {fileID: 1778280370}
+  - {fileID: 2042442067}
+  - {fileID: 1000150717}
+  - {fileID: 1150612275}
+  - {fileID: 2005534948}
+  - {fileID: 1708932491}
+  - {fileID: 126686904}
+  - {fileID: 1818483410}
+  - {fileID: 1626647139}
+  - {fileID: 181205173}
+  - {fileID: 1983700315}
+  - {fileID: 77434160}
+  - {fileID: 662599022}
+  - {fileID: 2077307553}
+  - {fileID: 1865798592}
+  - {fileID: 275715639}
+  - {fileID: 180519025}
+  - {fileID: 1016352752}
+  - {fileID: 884876584}
+  - {fileID: 626185879}
+  - {fileID: 170441776}
+  - {fileID: 1747020069}
+  - {fileID: 981284576}
+  - {fileID: 875123284}
+  - {fileID: 1417262560}
+  - {fileID: 482437454}
+  - {fileID: 751303444}
+  - {fileID: 55801513}
+  - {fileID: 892073718}
+  - {fileID: 1925020592}
+  - {fileID: 1396122159}
+  - {fileID: 1930402373}
+  - {fileID: 1634125236}
+  - {fileID: 535728701}
+  - {fileID: 1550845918}
+  - {fileID: 456579920}
+  - {fileID: 1566365707}
+  - {fileID: 698079778}
+  - {fileID: 1700776514}
+  - {fileID: 2055645661}
+  - {fileID: 2118390329}
+  - {fileID: 618509356}
+  - {fileID: 1151801023}
+  - {fileID: 1848741021}
+  - {fileID: 728409391}
+  - {fileID: 951929251}
+  - {fileID: 395556297}
+  - {fileID: 14687616}
+  - {fileID: 988737680}
+  - {fileID: 964948354}
+  - {fileID: 1355142830}
+  - {fileID: 119845293}
+  - {fileID: 840644899}
+  - {fileID: 1541209696}
+  - {fileID: 772489980}
+  - {fileID: 433619395}
+  - {fileID: 2107885125}
+  - {fileID: 988089794}
+  - {fileID: 640157907}
+  - {fileID: 252947051}
 --- !u!1 &364316653
 GameObject:
   m_ObjectHideFlags: 0
@@ -23221,7 +23471,7 @@ GameObject:
   - component: {fileID: 371846119}
   - component: {fileID: 371846118}
   m_Layer: 0
-  m_Name: Center (39)
+  m_Name: Tile32
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23243,7 +23493,7 @@ Transform:
   - {fileID: 989634103}
   - {fileID: 1084596783}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 39
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &371846118
 Rigidbody:
@@ -24616,7 +24866,7 @@ GameObject:
   - component: {fileID: 391145421}
   - component: {fileID: 391145420}
   m_Layer: 0
-  m_Name: Center (55)
+  m_Name: Tile64
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24638,7 +24888,7 @@ Transform:
   - {fileID: 1350453620}
   - {fileID: 552300052}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 55
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &391145420
 Rigidbody:
@@ -25012,7 +25262,7 @@ GameObject:
   - component: {fileID: 393512258}
   - component: {fileID: 393512257}
   m_Layer: 0
-  m_Name: Center (2)
+  m_Name: Tile19
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25034,7 +25284,7 @@ Transform:
   - {fileID: 732413865}
   - {fileID: 1112088552}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 2
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &393512257
 Rigidbody:
@@ -27807,87 +28057,87 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 512841662}
-  - {fileID: 32853240}
-  - {fileID: 393512256}
-  - {fileID: 652743228}
-  - {fileID: 605176872}
-  - {fileID: 1418028072}
   - {fileID: 925505805}
-  - {fileID: 2043732542}
-  - {fileID: 1896154360}
-  - {fileID: 2072556762}
-  - {fileID: 1756041386}
-  - {fileID: 935946088}
-  - {fileID: 1706440150}
-  - {fileID: 1279355626}
-  - {fileID: 76905704}
+  - {fileID: 32853240}
+  - {fileID: 652743228}
   - {fileID: 1265021301}
-  - {fileID: 176571608}
-  - {fileID: 62562951}
-  - {fileID: 1592554732}
-  - {fileID: 1664001802}
-  - {fileID: 899538854}
-  - {fileID: 1119262027}
-  - {fileID: 1511878531}
-  - {fileID: 230085830}
+  - {fileID: 2072556762}
+  - {fileID: 1706440150}
   - {fileID: 1945019754}
+  - {fileID: 1592554732}
+  - {fileID: 1119262027}
+  - {fileID: 2043732542}
+  - {fileID: 512841662}
+  - {fileID: 605176872}
+  - {fileID: 176571608}
+  - {fileID: 1756041386}
+  - {fileID: 1279355626}
   - {fileID: 1989232309}
+  - {fileID: 1664001802}
+  - {fileID: 1511878531}
+  - {fileID: 1896154360}
+  - {fileID: 393512256}
+  - {fileID: 1418028072}
+  - {fileID: 62562951}
+  - {fileID: 935946088}
+  - {fileID: 76905704}
   - {fileID: 2003404836}
-  - {fileID: 1777716707}
-  - {fileID: 1254079950}
-  - {fileID: 597150846}
-  - {fileID: 522307642}
-  - {fileID: 1927726033}
-  - {fileID: 1907868314}
+  - {fileID: 899538854}
+  - {fileID: 230085830}
   - {fileID: 1342559736}
-  - {fileID: 1111063403}
-  - {fileID: 275364571}
-  - {fileID: 175003597}
-  - {fileID: 703800903}
-  - {fileID: 484792409}
-  - {fileID: 371846117}
-  - {fileID: 1050044384}
-  - {fileID: 18206964}
+  - {fileID: 1777716707}
+  - {fileID: 522307642}
   - {fileID: 163743731}
-  - {fileID: 1735588902}
-  - {fileID: 1224943139}
-  - {fileID: 192765553}
-  - {fileID: 1879624242}
-  - {fileID: 1388607332}
-  - {fileID: 64519581}
-  - {fileID: 2982917}
-  - {fileID: 1767695330}
+  - {fileID: 175003597}
+  - {fileID: 371846117}
   - {fileID: 783469026}
+  - {fileID: 192765553}
+  - {fileID: 64519581}
+  - {fileID: 1111063403}
+  - {fileID: 1254079950}
+  - {fileID: 1927726033}
+  - {fileID: 1735588902}
+  - {fileID: 703800903}
+  - {fileID: 1050044384}
   - {fileID: 125713869}
+  - {fileID: 1879624242}
+  - {fileID: 2982917}
+  - {fileID: 275364571}
+  - {fileID: 597150846}
+  - {fileID: 1907868314}
+  - {fileID: 1224943139}
+  - {fileID: 484792409}
+  - {fileID: 18206964}
   - {fileID: 1666169097}
-  - {fileID: 1570944414}
-  - {fileID: 391145419}
-  - {fileID: 7039089}
-  - {fileID: 1683141061}
-  - {fileID: 711770381}
-  - {fileID: 943338674}
+  - {fileID: 1388607332}
+  - {fileID: 1767695330}
   - {fileID: 2143133341}
-  - {fileID: 1608707108}
-  - {fileID: 1372825746}
-  - {fileID: 513194841}
-  - {fileID: 31557438}
-  - {fileID: 109166379}
-  - {fileID: 1079365223}
-  - {fileID: 55272099}
-  - {fileID: 1521888425}
+  - {fileID: 1570944414}
+  - {fileID: 1683141061}
   - {fileID: 1665773619}
-  - {fileID: 2000722835}
-  - {fileID: 783184930}
-  - {fileID: 934438906}
-  - {fileID: 1620069399}
-  - {fileID: 1379463636}
-  - {fileID: 346203400}
-  - {fileID: 2040227181}
-  - {fileID: 623063850}
+  - {fileID: 513194841}
+  - {fileID: 1079365223}
   - {fileID: 757235241}
+  - {fileID: 934438906}
+  - {fileID: 346203400}
+  - {fileID: 1608707108}
+  - {fileID: 391145419}
+  - {fileID: 711770381}
+  - {fileID: 2000722835}
+  - {fileID: 31557438}
+  - {fileID: 55272099}
   - {fileID: 644304249}
+  - {fileID: 1620069399}
+  - {fileID: 2040227181}
+  - {fileID: 1372825746}
+  - {fileID: 7039089}
+  - {fileID: 943338674}
+  - {fileID: 783184930}
+  - {fileID: 109166379}
+  - {fileID: 1521888425}
   - {fileID: 1361889403}
+  - {fileID: 1379463636}
+  - {fileID: 623063850}
   m_Father: {fileID: 1548107421}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -30245,7 +30495,7 @@ Transform:
   m_LocalScale: {x: 150, y: 150, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
 --- !u!65 &474177365
 BoxCollider:
@@ -30968,7 +31218,7 @@ GameObject:
   - component: {fileID: 484792411}
   - component: {fileID: 484792410}
   m_Layer: 0
-  m_Name: Center (38)
+  m_Name: Tile49
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30990,7 +31240,7 @@ Transform:
   - {fileID: 1363766459}
   - {fileID: 184643979}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 38
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &484792410
 Rigidbody:
@@ -32709,7 +32959,7 @@ GameObject:
   - component: {fileID: 512841663}
   - component: {fileID: 512841664}
   m_Layer: 0
-  m_Name: Center
+  m_Name: Tile10
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32810,7 +33060,7 @@ Transform:
   - {fileID: 1700529960}
   - {fileID: 729252714}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 0
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &512841663
 BoxCollider:
@@ -32945,7 +33195,7 @@ GameObject:
   - component: {fileID: 513194843}
   - component: {fileID: 513194842}
   m_Layer: 0
-  m_Name: Center (63)
+  m_Name: Tile58
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32967,7 +33217,7 @@ Transform:
   - {fileID: 906722514}
   - {fileID: 885210518}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 63
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &513194842
 Rigidbody:
@@ -33911,7 +34161,7 @@ GameObject:
   - component: {fileID: 522307644}
   - component: {fileID: 522307643}
   m_Layer: 0
-  m_Name: Center (30)
+  m_Name: Tile29
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33933,7 +34183,7 @@ Transform:
   - {fileID: 613278126}
   - {fileID: 1002011643}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &522307643
 Rigidbody:
@@ -34747,7 +34997,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 80, y: 0, z: 0}
 --- !u!1 &535728699
 GameObject:
@@ -38920,7 +39170,7 @@ GameObject:
   - component: {fileID: 597150848}
   - component: {fileID: 597150847}
   m_Layer: 0
-  m_Name: Center (29)
+  m_Name: Tile46
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38942,7 +39192,7 @@ Transform:
   - {fileID: 205862055}
   - {fileID: 1014832924}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 29
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &597150847
 Rigidbody:
@@ -39520,7 +39770,7 @@ GameObject:
   - component: {fileID: 605176874}
   - component: {fileID: 605176873}
   m_Layer: 0
-  m_Name: Center (5)
+  m_Name: Tile11
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39542,7 +39792,7 @@ Transform:
   - {fileID: 2058496120}
   - {fileID: 1893069002}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 4
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &605176873
 Rigidbody:
@@ -40322,7 +40572,7 @@ GameObject:
   - component: {fileID: 623063852}
   - component: {fileID: 623063851}
   m_Layer: 0
-  m_Name: Center (77)
+  m_Name: Tile80
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40344,7 +40594,7 @@ Transform:
   - {fileID: 1092144182}
   - {fileID: 2033771102}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 77
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &623063851
 Rigidbody:
@@ -41780,7 +42030,7 @@ GameObject:
   - component: {fileID: 644304251}
   - component: {fileID: 644304250}
   m_Layer: 0
-  m_Name: Center (79)
+  m_Name: Tile69
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41802,7 +42052,7 @@ Transform:
   - {fileID: 544644744}
   - {fileID: 1172105045}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 79
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &644304250
 Rigidbody:
@@ -42298,7 +42548,7 @@ GameObject:
   - component: {fileID: 652743230}
   - component: {fileID: 652743229}
   m_Layer: 0
-  m_Name: Center (4)
+  m_Name: Tile2
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42320,7 +42570,7 @@ Transform:
   - {fileID: 475047238}
   - {fileID: 462123959}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &652743229
 Rigidbody:
@@ -42943,6 +43193,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659992512}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &660395433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660395434}
+  - component: {fileID: 660395437}
+  - component: {fileID: 660395436}
+  - component: {fileID: 660395435}
+  m_Layer: 0
+  m_Name: Current
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &660395434
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660395433}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1906469985}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &660395435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660395433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 055d377b353458149aec46e5f9bde49b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  padre: {fileID: 1906469986}
+--- !u!65 &660395436
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660395433}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &660395437
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660395433}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &661487175
 GameObject:
   m_ObjectHideFlags: 0
@@ -46258,7 +46583,7 @@ GameObject:
   - component: {fileID: 703800905}
   - component: {fileID: 703800904}
   m_Layer: 0
-  m_Name: Center (37)
+  m_Name: Tile40
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46280,7 +46605,7 @@ Transform:
   - {fileID: 845121816}
   - {fileID: 1521023892}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 37
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &703800904
 Rigidbody:
@@ -47081,7 +47406,7 @@ GameObject:
   - component: {fileID: 711770383}
   - component: {fileID: 711770382}
   m_Layer: 0
-  m_Name: Center (58)
+  m_Name: Tile65
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47103,7 +47428,7 @@ Transform:
   - {fileID: 253039009}
   - {fileID: 1212058567}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 58
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &711770382
 Rigidbody:
@@ -48398,6 +48723,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728262967}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &728284575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 728284577}
+  - component: {fileID: 728284576}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &728284576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728284575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c75522005a27de47ac65d8d388b032d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  players:
+  - {fileID: 1906469986}
+  - {fileID: 1175938065}
+  currentPlayer: 0
+--- !u!4 &728284577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728284575}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &728409389
 GameObject:
   m_ObjectHideFlags: 0
@@ -50005,7 +50377,7 @@ GameObject:
   - component: {fileID: 757235243}
   - component: {fileID: 757235242}
   m_Layer: 0
-  m_Name: Center (78)
+  m_Name: Tile60
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50027,7 +50399,7 @@ Transform:
   - {fileID: 62125120}
   - {fileID: 870770342}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 78
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &757235242
 Rigidbody:
@@ -52123,7 +52495,7 @@ GameObject:
   - component: {fileID: 783184932}
   - component: {fileID: 783184931}
   m_Layer: 0
-  m_Name: Center (71)
+  m_Name: Tile75
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52145,7 +52517,7 @@ Transform:
   - {fileID: 1767234996}
   - {fileID: 521719249}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 71
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &783184931
 Rigidbody:
@@ -52271,7 +52643,7 @@ GameObject:
   - component: {fileID: 783469028}
   - component: {fileID: 783469027}
   m_Layer: 0
-  m_Name: Center (51)
+  m_Name: Tile33
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52293,7 +52665,7 @@ Transform:
   - {fileID: 1944209216}
   - {fileID: 1836244048}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 51
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &783469027
 Rigidbody:
@@ -58367,7 +58739,7 @@ GameObject:
   - component: {fileID: 899538856}
   - component: {fileID: 899538855}
   m_Layer: 0
-  m_Name: Center (20)
+  m_Name: Tile25
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58389,7 +58761,7 @@ Transform:
   - {fileID: 1992644822}
   - {fileID: 422223446}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 20
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &899538855
 Rigidbody:
@@ -59446,7 +59818,7 @@ GameObject:
   - component: {fileID: 925505807}
   - component: {fileID: 925505806}
   m_Layer: 0
-  m_Name: Center (12)
+  m_Name: Tile0
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59468,7 +59840,7 @@ Transform:
   - {fileID: 1397554258}
   - {fileID: 1669551051}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &925505806
 Rigidbody:
@@ -60106,7 +60478,7 @@ GameObject:
   - component: {fileID: 934438908}
   - component: {fileID: 934438907}
   m_Layer: 0
-  m_Name: Center (72)
+  m_Name: Tile61
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60128,7 +60500,7 @@ Transform:
   - {fileID: 263229988}
   - {fileID: 155796358}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 72
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &934438907
 Rigidbody:
@@ -60378,7 +60750,7 @@ GameObject:
   - component: {fileID: 935946090}
   - component: {fileID: 935946089}
   m_Layer: 0
-  m_Name: Center (8)
+  m_Name: Tile22
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60400,7 +60772,7 @@ Transform:
   - {fileID: 1873391366}
   - {fileID: 1972205122}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 11
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &935946089
 Rigidbody:
@@ -61317,7 +61689,7 @@ GameObject:
   - component: {fileID: 943338676}
   - component: {fileID: 943338675}
   m_Layer: 0
-  m_Name: Center (59)
+  m_Name: Tile74
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61339,7 +61711,7 @@ Transform:
   - {fileID: 1790534468}
   - {fileID: 1771545927}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 59
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &943338675
 Rigidbody:
@@ -69340,7 +69712,7 @@ GameObject:
   - component: {fileID: 1050044386}
   - component: {fileID: 1050044385}
   m_Layer: 0
-  m_Name: Center (40)
+  m_Name: Tile41
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69362,7 +69734,7 @@ Transform:
   - {fileID: 1059304639}
   - {fileID: 336435769}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1050044385
 Rigidbody:
@@ -70806,7 +71178,7 @@ GameObject:
   - component: {fileID: 1079365225}
   - component: {fileID: 1079365224}
   m_Layer: 0
-  m_Name: Center (66)
+  m_Name: Tile59
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70828,7 +71200,7 @@ Transform:
   - {fileID: 1487978488}
   - {fileID: 1532811162}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 66
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1079365224
 Rigidbody:
@@ -72605,7 +72977,7 @@ GameObject:
   - component: {fileID: 1111063405}
   - component: {fileID: 1111063404}
   m_Layer: 0
-  m_Name: Center (34)
+  m_Name: Tile36
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72627,7 +72999,7 @@ Transform:
   - {fileID: 425693042}
   - {fileID: 1307348450}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 34
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1111063404
 Rigidbody:
@@ -73187,7 +73559,7 @@ GameObject:
   - component: {fileID: 1119262029}
   - component: {fileID: 1119262028}
   m_Layer: 0
-  m_Name: Center (21)
+  m_Name: Tile8
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73209,7 +73581,7 @@ Transform:
   - {fileID: 812319006}
   - {fileID: 1116160836}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 21
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1119262028
 Rigidbody:
@@ -76178,7 +76550,7 @@ GameObject:
   - component: {fileID: 1175938066}
   m_Layer: 0
   m_Name: PC1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76272,7 +76644,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 151e2d91e17cc7a47bbfe0a3588a5f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerControlled: 0
   nodoActual: {fileID: 0}
+  stacked: 0
   objetivos: []
   currentState: 0
 --- !u!54 &1175938066
@@ -77487,7 +77861,7 @@ GameObject:
   - component: {fileID: 1224943141}
   - component: {fileID: 1224943140}
   m_Layer: 0
-  m_Name: Center (44)
+  m_Name: Tile48
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77509,7 +77883,7 @@ Transform:
   - {fileID: 424695210}
   - {fileID: 1109438036}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 44
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1224943140
 Rigidbody:
@@ -78669,7 +79043,7 @@ GameObject:
   - component: {fileID: 1254079952}
   - component: {fileID: 1254079951}
   m_Layer: 0
-  m_Name: Center (28)
+  m_Name: Tile37
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78691,7 +79065,7 @@ Transform:
   - {fileID: 694264487}
   - {fileID: 727101034}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 28
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1254079951
 Rigidbody:
@@ -79140,7 +79514,7 @@ GameObject:
   - component: {fileID: 1265021303}
   - component: {fileID: 1265021302}
   m_Layer: 0
-  m_Name: Center (15)
+  m_Name: Tile3
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79162,7 +79536,7 @@ Transform:
   - {fileID: 1406728795}
   - {fileID: 1398645824}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 15
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1265021302
 Rigidbody:
@@ -80568,7 +80942,7 @@ GameObject:
   - component: {fileID: 1279355628}
   - component: {fileID: 1279355627}
   m_Layer: 0
-  m_Name: Center (10)
+  m_Name: Tile14
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80590,7 +80964,7 @@ Transform:
   - {fileID: 1467495090}
   - {fileID: 118460799}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1279355627
 Rigidbody:
@@ -81753,7 +82127,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1305160613
 GameObject:
@@ -83773,7 +84147,7 @@ GameObject:
   - component: {fileID: 1342559738}
   - component: {fileID: 1342559737}
   m_Layer: 0
-  m_Name: Center (33)
+  m_Name: Tile27
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83795,7 +84169,7 @@ Transform:
   - {fileID: 786652132}
   - {fileID: 408057603}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 33
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1342559737
 Rigidbody:
@@ -85095,7 +85469,7 @@ GameObject:
   - component: {fileID: 1361889405}
   - component: {fileID: 1361889404}
   m_Layer: 0
-  m_Name: Center (80)
+  m_Name: Tile78
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85117,7 +85491,7 @@ Transform:
   - {fileID: 701100460}
   - {fileID: 9491348}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 80
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1361889404
 Rigidbody:
@@ -86279,7 +86653,7 @@ GameObject:
   - component: {fileID: 1372825748}
   - component: {fileID: 1372825747}
   m_Layer: 0
-  m_Name: Center (62)
+  m_Name: Tile72
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86301,7 +86675,7 @@ Transform:
   - {fileID: 1944131064}
   - {fileID: 1725717407}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 62
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1372825747
 Rigidbody:
@@ -86929,7 +87303,7 @@ GameObject:
   - component: {fileID: 1379463638}
   - component: {fileID: 1379463637}
   m_Layer: 0
-  m_Name: Center (74)
+  m_Name: Tile79
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86951,7 +87325,7 @@ Transform:
   - {fileID: 2127625100}
   - {fileID: 2827513}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 74
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1379463637
 Rigidbody:
@@ -88027,7 +88401,7 @@ GameObject:
   - component: {fileID: 1388607334}
   - component: {fileID: 1388607333}
   m_Layer: 0
-  m_Name: Center (47)
+  m_Name: Tile52
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88049,7 +88423,7 @@ Transform:
   - {fileID: 1203923538}
   - {fileID: 1243311467}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 47
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1388607333
 Rigidbody:
@@ -89844,7 +90218,7 @@ GameObject:
   - component: {fileID: 1418028074}
   - component: {fileID: 1418028073}
   m_Layer: 0
-  m_Name: Center (6)
+  m_Name: Tile20
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89866,7 +90240,7 @@ Transform:
   - {fileID: 1901069652}
   - {fileID: 1964215966}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 5
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1418028073
 Rigidbody:
@@ -94090,7 +94464,7 @@ GameObject:
   - component: {fileID: 1511878533}
   - component: {fileID: 1511878532}
   m_Layer: 0
-  m_Name: Center (22)
+  m_Name: Tile17
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94112,7 +94486,7 @@ Transform:
   - {fileID: 2013969909}
   - {fileID: 758304690}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 22
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1511878532
 Rigidbody:
@@ -94706,7 +95080,7 @@ GameObject:
   - component: {fileID: 1521888427}
   - component: {fileID: 1521888426}
   m_Layer: 0
-  m_Name: Center (68)
+  m_Name: Tile77
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94728,7 +95102,7 @@ Transform:
   - {fileID: 401912197}
   - {fileID: 1838705336}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 68
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1521888426
 Rigidbody:
@@ -96090,7 +96464,7 @@ Transform:
   - {fileID: 1518703580}
   - {fileID: 362955051}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1541016485
 GameObject:
@@ -96589,11 +96963,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 438991928}
-  - {fileID: 1972131442}
-  - {fileID: 1549947850}
+  - {fileID: 364148499}
+  - {fileID: 1906469985}
   - {fileID: 1175938061}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
 --- !u!114 &1548107422
 MonoBehaviour:
@@ -96754,7 +97128,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549947849}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -96830,8 +97204,8 @@ Transform:
   - {fileID: 1448688473}
   - {fileID: 626462655}
   - {fileID: 179642061}
-  m_Father: {fileID: 1548107421}
-  m_RootOrder: 2
+  m_Father: {fileID: 364148499}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1549957457
 GameObject:
@@ -98548,7 +98922,7 @@ GameObject:
   - component: {fileID: 1570944416}
   - component: {fileID: 1570944415}
   m_Layer: 0
-  m_Name: Center (54)
+  m_Name: Tile55
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98570,7 +98944,7 @@ Transform:
   - {fileID: 168816649}
   - {fileID: 2058827929}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 54
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1570944415
 Rigidbody:
@@ -99648,7 +100022,7 @@ GameObject:
   - component: {fileID: 1592554734}
   - component: {fileID: 1592554733}
   m_Layer: 0
-  m_Name: Center (18)
+  m_Name: Tile7
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99670,7 +100044,7 @@ Transform:
   - {fileID: 744382611}
   - {fileID: 942368664}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 18
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1592554733
 Rigidbody:
@@ -100525,7 +100899,7 @@ GameObject:
   - component: {fileID: 1608707110}
   - component: {fileID: 1608707109}
   m_Layer: 0
-  m_Name: Center (61)
+  m_Name: Tile63
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100547,7 +100921,7 @@ Transform:
   - {fileID: 84977912}
   - {fileID: 1630089561}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 61
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1608707109
 Rigidbody:
@@ -101686,7 +102060,7 @@ GameObject:
   - component: {fileID: 1620069401}
   - component: {fileID: 1620069400}
   m_Layer: 0
-  m_Name: Center (73)
+  m_Name: Tile70
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101708,7 +102082,7 @@ Transform:
   - {fileID: 101901192}
   - {fileID: 383006916}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 73
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1620069400
 Rigidbody:
@@ -104312,7 +104686,7 @@ GameObject:
   - component: {fileID: 1664001804}
   - component: {fileID: 1664001803}
   m_Layer: 0
-  m_Name: Center (19)
+  m_Name: Tile16
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104334,7 +104708,7 @@ Transform:
   - {fileID: 372321422}
   - {fileID: 597788686}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 19
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1664001803
 Rigidbody:
@@ -104460,7 +104834,7 @@ GameObject:
   - component: {fileID: 1665773621}
   - component: {fileID: 1665773620}
   m_Layer: 0
-  m_Name: Center (69)
+  m_Name: Tile57
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104482,7 +104856,7 @@ Transform:
   - {fileID: 1758406223}
   - {fileID: 533283892}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 69
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1665773620
 Rigidbody:
@@ -104608,7 +104982,7 @@ GameObject:
   - component: {fileID: 1666169099}
   - component: {fileID: 1666169098}
   m_Layer: 0
-  m_Name: Center (53)
+  m_Name: Tile51
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104630,7 +105004,7 @@ Transform:
   - {fileID: 2045715652}
   - {fileID: 1101156339}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 53
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1666169098
 Rigidbody:
@@ -105737,7 +106111,7 @@ GameObject:
   - component: {fileID: 1683141063}
   - component: {fileID: 1683141062}
   m_Layer: 0
-  m_Name: Center (57)
+  m_Name: Tile56
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105759,7 +106133,7 @@ Transform:
   - {fileID: 1896882566}
   - {fileID: 982731295}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 57
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1683141062
 Rigidbody:
@@ -107533,7 +107907,7 @@ GameObject:
   - component: {fileID: 1706440152}
   - component: {fileID: 1706440151}
   m_Layer: 0
-  m_Name: Center (9)
+  m_Name: Tile5
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107555,7 +107929,7 @@ Transform:
   - {fileID: 13818092}
   - {fileID: 1524265834}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 12
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1706440151
 Rigidbody:
@@ -109056,7 +109430,7 @@ GameObject:
   - component: {fileID: 1735588904}
   - component: {fileID: 1735588903}
   m_Layer: 0
-  m_Name: Center (43)
+  m_Name: Tile39
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109078,7 +109452,7 @@ Transform:
   - {fileID: 1694837564}
   - {fileID: 1493247539}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 43
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1735588903
 Rigidbody:
@@ -110308,7 +110682,7 @@ GameObject:
   - component: {fileID: 1756041388}
   - component: {fileID: 1756041387}
   m_Layer: 0
-  m_Name: Center (7)
+  m_Name: Tile13
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110330,7 +110704,7 @@ Transform:
   - {fileID: 261350483}
   - {fileID: 2086304534}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 10
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1756041387
 Rigidbody:
@@ -111747,7 +112121,7 @@ GameObject:
   - component: {fileID: 1767695332}
   - component: {fileID: 1767695331}
   m_Layer: 0
-  m_Name: Center (50)
+  m_Name: Tile53
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111769,7 +112143,7 @@ Transform:
   - {fileID: 479320386}
   - {fileID: 713616717}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 50
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1767695331
 Rigidbody:
@@ -112390,7 +112764,7 @@ GameObject:
   - component: {fileID: 1777716709}
   - component: {fileID: 1777716708}
   m_Layer: 0
-  m_Name: Center (27)
+  m_Name: Tile28
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112412,7 +112786,7 @@ Transform:
   - {fileID: 1765851137}
   - {fileID: 1672494412}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1777716708
 Rigidbody:
@@ -116757,7 +117131,7 @@ GameObject:
   - component: {fileID: 1879624244}
   - component: {fileID: 1879624243}
   m_Layer: 0
-  m_Name: Center (46)
+  m_Name: Tile43
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116779,7 +117153,7 @@ Transform:
   - {fileID: 620850349}
   - {fileID: 1551498862}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 46
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1879624243
 Rigidbody:
@@ -117836,7 +118210,7 @@ GameObject:
   - component: {fileID: 1896154362}
   - component: {fileID: 1896154361}
   m_Layer: 0
-  m_Name: Center (14)
+  m_Name: Tile18
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117858,7 +118232,7 @@ Transform:
   - {fileID: 738954121}
   - {fileID: 849533523}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 8
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1896154361
 Rigidbody:
@@ -118729,6 +119103,137 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903991922}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1906469984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1906469985}
+  - component: {fileID: 1906469990}
+  - component: {fileID: 1906469989}
+  - component: {fileID: 1906469988}
+  - component: {fileID: 1906469986}
+  - component: {fileID: 1906469987}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1906469985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906469984}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 9, y: -18, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 660395434}
+  - {fileID: 364013959}
+  m_Father: {fileID: 1548107421}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1906469986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906469984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 151e2d91e17cc7a47bbfe0a3588a5f51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerControlled: 1
+  nodoActual: {fileID: 0}
+  stacked: 0
+  objetivos: []
+  currentState: 0
+--- !u!54 &1906469987
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906469984}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &1906469988
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906469984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1906469989
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906469984}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1906469990
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906469984}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1906480019
 GameObject:
   m_ObjectHideFlags: 0
@@ -118944,7 +119449,7 @@ GameObject:
   - component: {fileID: 1907868316}
   - component: {fileID: 1907868315}
   m_Layer: 0
-  m_Name: Center (32)
+  m_Name: Tile47
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118966,7 +119471,7 @@ Transform:
   - {fileID: 657722925}
   - {fileID: 192133800}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 32
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1907868315
 Rigidbody:
@@ -120117,7 +120622,7 @@ GameObject:
   - component: {fileID: 1927726035}
   - component: {fileID: 1927726034}
   m_Layer: 0
-  m_Name: Center (31)
+  m_Name: Tile38
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120139,7 +120644,7 @@ Transform:
   - {fileID: 1729563945}
   - {fileID: 1123788754}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 31
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1927726034
 Rigidbody:
@@ -120963,7 +121468,7 @@ GameObject:
   - component: {fileID: 1945019756}
   - component: {fileID: 1945019755}
   m_Layer: 0
-  m_Name: Center (24)
+  m_Name: Tile6
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120985,7 +121490,7 @@ Transform:
   - {fileID: 1553103745}
   - {fileID: 992176525}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 24
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1945019755
 Rigidbody:
@@ -122882,7 +123387,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972131441}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -122958,8 +123463,8 @@ Transform:
   - {fileID: 613092112}
   - {fileID: 1262295055}
   - {fileID: 1541016486}
-  m_Father: {fileID: 1548107421}
-  m_RootOrder: 1
+  m_Father: {fileID: 364148499}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1972205121
 GameObject:
@@ -123802,7 +124307,7 @@ GameObject:
   - component: {fileID: 1989232311}
   - component: {fileID: 1989232310}
   m_Layer: 0
-  m_Name: Center (25)
+  m_Name: Tile15
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123824,7 +124329,7 @@ Transform:
   - {fileID: 180070527}
   - {fileID: 2071931922}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 25
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1989232310
 Rigidbody:
@@ -124289,7 +124794,7 @@ GameObject:
   - component: {fileID: 2000722837}
   - component: {fileID: 2000722836}
   m_Layer: 0
-  m_Name: Center (70)
+  m_Name: Tile66
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124311,7 +124816,7 @@ Transform:
   - {fileID: 369232109}
   - {fileID: 30232886}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 70
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2000722836
 Rigidbody:
@@ -124561,7 +125066,7 @@ GameObject:
   - component: {fileID: 2003404838}
   - component: {fileID: 2003404837}
   m_Layer: 0
-  m_Name: Center (26)
+  m_Name: Tile24
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124583,7 +125088,7 @@ Transform:
   - {fileID: 2060117921}
   - {fileID: 626073592}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 26
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2003404837
 Rigidbody:
@@ -126948,7 +127453,7 @@ GameObject:
   - component: {fileID: 2040227183}
   - component: {fileID: 2040227182}
   m_Layer: 0
-  m_Name: Center (76)
+  m_Name: Tile71
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -126970,7 +127475,7 @@ Transform:
   - {fileID: 1387488982}
   - {fileID: 770506834}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 76
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2040227182
 Rigidbody:
@@ -127207,7 +127712,7 @@ GameObject:
   - component: {fileID: 2043732544}
   - component: {fileID: 2043732543}
   m_Layer: 0
-  m_Name: Center (13)
+  m_Name: Tile9
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127229,7 +127734,7 @@ Transform:
   - {fileID: 1027388750}
   - {fileID: 653790179}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2043732543
 Rigidbody:
@@ -129374,7 +129879,7 @@ GameObject:
   - component: {fileID: 2072556764}
   - component: {fileID: 2072556763}
   m_Layer: 0
-  m_Name: Center (3)
+  m_Name: Tile4
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129396,7 +129901,7 @@ Transform:
   - {fileID: 1984724530}
   - {fileID: 2013781352}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 9
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2072556763
 Rigidbody:
@@ -129652,9 +130157,9 @@ Canvas:
   m_GameObject: {fileID: 2074492319}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_RenderMode: 1
+  m_Camera: {fileID: 534669904}
+  m_PlaneDistance: 10
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -129677,7 +130182,7 @@ RectTransform:
   m_Children:
   - {fileID: 180140973}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -132527,7 +133032,7 @@ GameObject:
   - component: {fileID: 2143133343}
   - component: {fileID: 2143133342}
   m_Layer: 0
-  m_Name: Center (60)
+  m_Name: Tile54
   m_TagString: tileArea
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132549,7 +133054,7 @@ Transform:
   - {fileID: 1702803419}
   - {fileID: 1370563150}
   m_Father: {fileID: 438991928}
-  m_RootOrder: 60
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2143133342
 Rigidbody:
