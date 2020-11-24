@@ -9,9 +9,7 @@ public class PlacerOffer : MonoBehaviour
     {
         if (other.tag == "WallPlacer")
         {
-            other.gameObject.GetComponent<MeshRenderer>().enabled = false;
-            other.gameObject.GetComponent<WallPlacer>().enabled = false;
-            other.gameObject.GetComponent<BoxCollider>().enabled = false;
+            other.gameObject.GetComponent<WallPlacer>().TurnOff();
         }
     }
 }

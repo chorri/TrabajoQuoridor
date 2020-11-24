@@ -26,6 +26,7 @@ public class IA : MonoBehaviour
     float timeStart;
     float maxTime = 0.5f;
 
+    
 
     // Start is called before the first frame update
     void Start()
@@ -49,11 +50,28 @@ public class IA : MonoBehaviour
                 case EstadoIA.Wait:
                     break;
                 case EstadoIA.Act:
+                    foreach (Nodo nodo in nodoActual.adjacentes)
+                    {
+                        nodo.cuerpo.materialActive = true;
+                    }
                     break;
                 case EstadoIA.Move:
+                    if (Time.time - timeStart > maxTime / 2)
+                    {
+                        if (!stacked)
+                        {
+                            ChangePlayerState(EstadoIA.Check);
+                        } else
+                        {
+                            foreach (Nodo nodo in nodoActual.adjacentes)
+                            {
+                                nodo.cuerpo.materialActive = true;
+                            }
+                        }
+                    }
                     break;
                 case EstadoIA.Check:
-                    //WinCheck
+                    CheckWin();
                     if (Time.time - timeStart > maxTime / 2)
                     {
                         //CheckStacked
@@ -93,9 +111,9 @@ public class IA : MonoBehaviour
 
                 break;
             case EstadoIA.Act:
+                caminoObjetivo = new CaminoCompleto();
                 foreach (Nodo item in objetivos)
-                {
-                    caminoObjetivo = new CaminoCompleto();
+                {   
                     CaminoCompleto temp;
                     temp = Pathfinding.instance.AStar(nodoActual, item);
 
@@ -110,6 +128,8 @@ public class IA : MonoBehaviour
                         }
                     }
                 }
+
+
                 timeStart = Time.time;
                 currentState = EstadoIA.Move;
                 break;
@@ -133,6 +153,7 @@ public class IA : MonoBehaviour
                 if (Time.time - timeStart > maxTime)
                 {
                     transform.position = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 1].transform.position + Vector3.up;
+                    caminoObjetivo.RemoveLast();
 
                     timeStart = Time.time;
                     currentState = EstadoIA.Check;
@@ -144,6 +165,7 @@ public class IA : MonoBehaviour
                 if (Time.time - timeStart > maxTime/2)
                 {
                     //WinCheck
+                    CheckWin();
                     IACheckStacked();
                     currentState = EstadoIA.Wait;
                     TurnManager.instance.NextPlayer();
@@ -154,11 +176,23 @@ public class IA : MonoBehaviour
         }
     }
 
+    void CheckWin()
+    {
+        foreach (Nodo item in objetivos)
+        {
+            if (item == nodoActual)
+            {
+                Debug.Log("WINNER" + gameObject.name);
+            }
+        }
+    }
+
     void IACheckStacked()
     {
         if (stacked && caminoObjetivo.caminoNodo.Count - 1 > 0)    //Deberia checkear si hay forma de moverse a los lados en lugar de ganar
         {
-            transform.position = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 2].transform.position+Vector3.up;
+            transform.position = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 1].transform.position+Vector3.up;
+            caminoObjetivo.RemoveLast();
             stacked = false;
         }
     }

@@ -10,7 +10,7 @@ public class TurnManager : MonoBehaviour
     public static TurnManager instance;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         instance = this;
         players[currentPlayer].currentState = EstadoIA.Act;

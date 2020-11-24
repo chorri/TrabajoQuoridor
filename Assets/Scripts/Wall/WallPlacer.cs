@@ -7,6 +7,12 @@ using UnityEngine;
 public class WallPlacer : MonoBehaviour
 {
     TurnManager tM;
+    bool state = true;
+
+    public bool GetState()
+    {
+        return state;
+    }
 
     private void Start()
     {
@@ -20,6 +26,13 @@ public class WallPlacer : MonoBehaviour
         transform.GetChild(2).gameObject.SetActive(true);
     }
 
+    public void TurnOff()
+    {
+        gameObject.GetComponent<MeshRenderer>().enabled = false;
+        gameObject.GetComponent<BoxCollider>().enabled = false;
+        //gameObject.GetComponent<WallPlacer>().enabled = false;
+        state = false;
+    }
 
     //Unity Methods
 

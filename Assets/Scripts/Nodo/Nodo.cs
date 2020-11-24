@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Nodo : MonoBehaviour
 {
-
     public int trabajo = 0;
     public TextMesh trabajoTexto;
     public int distancia = 0;
@@ -14,23 +13,30 @@ public class Nodo : MonoBehaviour
     public Nodo direccion;
 
     public List<Nodo> adjacentes;
-
+    
     //Valores Unity
     Transform objeto;
-    List<BoxCollider> busquedaAdjacentes;
+    public NodoSelector cuerpo;
 
     // Start is called before the first frame update
     void Start()
     {
         objeto = this.transform;
+        cuerpo = transform.Find("Cuerpo").GetComponent<NodoSelector>();
         totalTexto = transform.Find("Total").GetComponent<TextMesh>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        foreach (var i in adjacentes) {
-            Debug.DrawLine(objeto.position,i.GetTransform().position,Color.red);
+        //DebugText();
+    }
+
+    void DebugText()
+    {
+        foreach (var i in adjacentes)
+        {
+            Debug.DrawLine(objeto.position, i.GetTransform().position, Color.red);
         }
         trabajoTexto.text = trabajo.ToString();
         distanciaTexto.text = distancia.ToString();
@@ -49,6 +55,5 @@ public class Nodo : MonoBehaviour
         if (other.tag == "Nodo" && other.transform.parent != this.transform) {
             adjacentes.Add(other.transform.parent.GetComponent<Nodo>());
         }
-        
     }
 }

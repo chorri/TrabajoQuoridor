@@ -19,6 +19,12 @@ public class CaminoCompleto
         }
     }
 
+    public void RemoveLast()
+    {
+        caminoNodo.RemoveAt(caminoNodo.Count-1);
+        caminoDireccion.RemoveAt(caminoDireccion.Count - 1);
+    }
+
     public void ShowPath(float duration) {
         foreach (Nodo actual in caminoNodo) {
             Debug.DrawLine(actual.transform.position + Vector3.up, actual.direccion.transform.position + Vector3.up, Color.cyan, duration);
