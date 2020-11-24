@@ -30,9 +30,7 @@ public class MazeManager : MonoBehaviour
         results[mazeTemp] = "Yes";
     }
 
-
-    // Start is called before the first frame update
-    void Start()
+    public void UpdatePlacers()
     {
         GameObject gOV = GameObject.Find("WallPlacerVertical");
         for (int i = 0; i < gOV.transform.childCount; i++)
@@ -45,6 +43,12 @@ public class MazeManager : MonoBehaviour
         {
             hPlacers.Add(gOH.transform.GetChild(i));
         }
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        UpdatePlacers();
     }
 
     // Update is called once per frame
@@ -78,6 +82,7 @@ public class MazeManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.B))
         {
+            UpdatePlacers();
             //Debug.Log( ConvertToBinary());
             //Debug.Log(diccionario.ContainsKey(this));
         }
@@ -111,6 +116,10 @@ public class MazeManager : MonoBehaviour
 
     void AddToDiccionary(Dictionary<string, int> dic, string key, bool horizontal)
     {
+        if (dic.ContainsKey(key))
+        {
+            return;
+        }
         if (horizontal)
         {
             dic.Add(key,hValue);
