@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MazeManager : MonoBehaviour
 {
+
+    public static MazeManager instance;
 
     public Nodo playerPos;
     public List<bool> hPlacers;
@@ -15,45 +18,85 @@ public class MazeManager : MonoBehaviour
     public Dictionary<string, int> vDic = new Dictionary<string, int>();
     int vValue = 0;
 
-    public Dictionary<int[], string> results = new Dictionary<int[], string>();
+    public Dictionary<string, string> results = new Dictionary<string, string>();
 
-    public void AddState(string hPla, string vPla, Nodo pPos)
+    
+    public void AddState(string hPla, string vPla, Nodo pPos,string rpta)
     {
-        string temp = playerPos.gameObject.name;
+        string temp = pPos.gameObject.name;
         temp = temp.Remove(0, 4);
 
         int n = int.Parse(temp);
 
         int[] mazeTemp = new int[3] { hDic[hPla], vDic[vPla], n };
 
-        Debug.Log(temp + " | " + n);
-        results[mazeTemp] = "Yes";
+        string newKey = hDic[hPla] + "|" + vDic[vPla] + "|" + n;
+
+        if (!results.ContainsKey(newKey))
+        {
+            results[newKey] = rpta;
+            Debug.Log(newKey + " | " + results[newKey]);
+        }
     }
 
-    public void UpdatePlacers()
+    public void AddPlacers()
     {
         GameObject gOV = GameObject.Find("WallPlacerVertical");
         for (int i = 0; i < gOV.transform.childCount; i++)
         {
-            vPlacers.Add(gOV.transform.GetChild(i));
+            vPlacers.Add(gOV.transform.GetChild(i).GetComponent<WallPlacer>().state);
         }
 
         GameObject gOH = GameObject.Find("WallPlacerHorizontal");
         for (int i = 0; i < gOH.transform.childCount; i++)
         {
-            hPlacers.Add(gOH.transform.GetChild(i));
+            hPlacers.Add(gOH.transform.GetChild(i).GetComponent<WallPlacer>().state);
+        }
+    }
+
+    public void UpdatePlacers(GameObject obj)
+    {
+        string nam = obj.name;
+        int i;
+        if (nam[0] == 'V')
+        {
+            nam = nam.Remove(0, 1);
+            //Debug.Log(nam);
+            i = int.Parse(nam);
+            vPlacers[i] = obj.GetComponent<WallPlacer>().state;
+        } else {
+            nam = nam.Remove(0,1);
+            //Debug.Log(nam);
+            i = int.Parse(nam);
+            hPlacers[i] = obj.GetComponent<WallPlacer>().state;
+        }
+    }
+
+    private void Awake()
+    {
+        if (MazeManager.instance == null)
+        {
+            instance = this;
+        } else
+        {
+            Destroy(this);
         }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        UpdatePlacers();
+        AddPlacers();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             //Debug.Log( ConvertToBinary());
@@ -66,40 +109,51 @@ public class MazeManager : MonoBehaviour
         {
             //Debug.Log( ConvertToBinary());
             //diccionario.Add(this, test);
-            AddToDiccionary(hDic, ConvertToBinary(hPlacers), true);
-            AddToDiccionary(vDic, ConvertToBinary(vPlacers), false);
-            AddState(ConvertToBinary(hPlacers), ConvertToBinary(vPlacers), playerPos);
+            AddToResultDictionary("Test");
 
-            foreach (int[] item in results.Keys)
+            //Diccionario de Paredes Horizontales
+            foreach (string item in hDic.Keys)
             {
-                Debug.Log(item[0] + " | "+item[1]+" | " +item[2]);
+                Debug.Log(item + " -> " + hDic[item]);
             }
-            foreach (string item in results.Values)
+            //Diccionario de Paredes Verticales
+            foreach (string item in vDic.Keys)
             {
-                Debug.Log(item);
+                Debug.Log(item + " -> " + vDic[item]);
+            }
+
+            foreach (string item in results.Keys)
+            {
+                Debug.Log(item + " -> " + results[item]);
             }
         }
 
         if (Input.GetKeyDown(KeyCode.B))
         {
-            UpdatePlacers();
+            //UpdatePlacers();
             //Debug.Log( ConvertToBinary());
             //Debug.Log(diccionario.ContainsKey(this));
         }
+
+
         if (Input.GetKeyDown(KeyCode.E))
         {
+
+            foreach (IA item in TurnManager.instance.players)
+            {
+                Debug.Log(item.gameObject.name + ": " + item.caminoObjetivo.caminoNodo.Count);
+            }
+
             //Debug.Log( ConvertToBinary());
             //Debug.Log(diccionario[this]);
         }
     }
 
-    public void AlterHPlacers(int n, bool value)
+    public void AddToResultDictionary(string res)
     {
-        hPlacers[n] = value;
-    }
-    public void AlterVPlacers(int n, bool value)
-    {
-        vPlacers[n] = value;
+        AddToDicionary(hDic, ConvertToBinary(hPlacers), true);
+        AddToDicionary(vDic, ConvertToBinary(vPlacers), false);
+        AddState(ConvertToBinary(hPlacers), ConvertToBinary(vPlacers), playerPos,res);
     }
 
     public string ConvertToBinary(List<bool> placers)
@@ -114,7 +168,7 @@ public class MazeManager : MonoBehaviour
         return rpta;
     }
 
-    void AddToDiccionary(Dictionary<string, int> dic, string key, bool horizontal)
+    void AddToDicionary(Dictionary<string, int> dic, string key, bool horizontal)
     {
         if (dic.ContainsKey(key))
         {

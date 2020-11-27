@@ -19,7 +19,7 @@ public class IA : MonoBehaviour
     public List<Nodo> objetivos;
 
     public EstadoIA currentState;
-    CaminoCompleto caminoObjetivo = new CaminoCompleto();
+    public CaminoCompleto caminoObjetivo = new CaminoCompleto();
 
     //Para mostrar todos los caminos
     List<CaminoCompleto> todosCaminos = new List<CaminoCompleto>();
@@ -128,6 +128,16 @@ public class IA : MonoBehaviour
                         }
                     }
                 }
+
+                IA posWiner=this;
+                foreach (IA item in TurnManager.instance.players)
+                {
+                    if (posWiner.caminoObjetivo.caminoNodo.Count< item.caminoObjetivo.caminoNodo.Count)
+                    {
+                        posWiner = item;
+                    }
+                }
+                Debug.LogError(posWiner.name);
 
 
                 timeStart = Time.time;

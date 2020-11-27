@@ -7,7 +7,8 @@ using UnityEngine;
 public class WallPlacer : MonoBehaviour
 {
     TurnManager tM;
-    bool state = true;
+    MazeManager mM;
+    public bool state = true;
 
     public bool GetState()
     {
@@ -17,6 +18,7 @@ public class WallPlacer : MonoBehaviour
     private void Start()
     {
         tM = TurnManager.instance;
+        mM = MazeManager.instance;
     }
 
     public void PlaceWall()
@@ -32,6 +34,7 @@ public class WallPlacer : MonoBehaviour
         gameObject.GetComponent<BoxCollider>().enabled = false;
         //gameObject.GetComponent<WallPlacer>().enabled = false;
         state = false;
+        mM.UpdatePlacers(this.gameObject);
     }
 
     //Unity Methods
@@ -43,6 +46,7 @@ public class WallPlacer : MonoBehaviour
             {
                 PlaceWall();
                 tM.players[tM.currentPlayer].ChangePlayerState(EstadoIA.Check);
+                
             }
         }
         

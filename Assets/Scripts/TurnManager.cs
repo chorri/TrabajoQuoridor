@@ -16,10 +16,18 @@ public class TurnManager : MonoBehaviour
         players[currentPlayer].currentState = EstadoIA.Act;
     }
 
+    void Start()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {
-        
+        if (MazeManager.instance.playerPos == null)
+        {
+            MazeManager.instance.playerPos = players[currentPlayer].nodoActual;
+        }
     }
 
     public void NextPlayer()
