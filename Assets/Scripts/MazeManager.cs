@@ -28,8 +28,6 @@ public class MazeManager : MonoBehaviour
 
         int n = int.Parse(temp);
 
-        int[] mazeTemp = new int[3] { hDic[hPla], vDic[vPla], n };
-
         string newKey = hDic[hPla] + "|" + vDic[vPla] + "|" + n;
 
         if (!results.ContainsKey(newKey))
@@ -77,6 +75,7 @@ public class MazeManager : MonoBehaviour
         if (MazeManager.instance == null)
         {
             instance = this;
+            DontDestroyOnLoad(this);
         } else
         {
             Destroy(this);

@@ -18,13 +18,44 @@ public class WallEntity : MonoBehaviour
                     nodo.adjacentes.Remove(nodoTotal);
                 }
             }
-            encontrados.Clear();
+            //encontrados.Clear();
+        }
+        //if (Input.GetKeyDown(KeyCode.X))
+        //{
+        //    OnWall();
+        //}
+        //if (Input.GetKeyDown(KeyCode.Z))
+        //{
+        //    OffWall();
+        //}
+    }
+
+    public void OffWall()
+    {
+        foreach (Nodo nodo in encontrados)
+        {
+            nodo.SetCheckAgain(true);
+        }
+        gameObject.SetActive(false);
+    }
+
+    public void OnWall()
+    {   
+        foreach (Nodo nodo in encontrados)
+        {
+            nodo.SetCheckAgain(false);
         }
     }
+    
 
     private void OnTriggerEnter(Collider other) {
         if (other.tag == "tileArea") {
-            encontrados.Add(other.transform.GetComponent<Nodo>());
+            if (!encontrados.Contains(other.transform.GetComponent<Nodo>()))
+            {
+                encontrados.Add(other.transform.GetComponent<Nodo>());
+                other.transform.GetComponent<Nodo>().SetCheckAgain(false);
+            }
+            
         }
     }
 }

@@ -17,6 +17,7 @@ public class Nodo : MonoBehaviour
     //Valores Unity
     Transform objeto;
     public NodoSelector cuerpo;
+    bool checkAgain = true;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +30,7 @@ public class Nodo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //DebugText();
+        DebugText();
     }
 
     void DebugText()
@@ -51,9 +52,33 @@ public class Nodo : MonoBehaviour
         return objeto;
     }
 
-    private void OnTriggerEnter(Collider other) {
-        if (other.tag == "Nodo" && other.transform.parent != this.transform) {
-            adjacentes.Add(other.transform.parent.GetComponent<Nodo>());
+    public void SetCheckAgain(bool value)
+    {
+        checkAgain = value;
+        Debug.Log("Entro");
+    }
+
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (checkAgain)
+        {
+            if (other.tag == "Nodo" && other.transform.parent != this.transform)
+            {
+                if (!adjacentes.Contains(other.transform.parent.GetComponent<Nodo>()))
+                {
+                    adjacentes.Add(other.transform.parent.GetComponent<Nodo>());
+                }
+            }
         }
     }
+
+//    private void OnTriggerEnter(Collider other) {
+//        if (other.tag == "Nodo" && other.transform.parent != this.transform) {
+//            if (!adjacentes.Contains(other.transform.parent.GetComponent<Nodo>()))
+//            {
+//                adjacentes.Add(other.transform.parent.GetComponent<Nodo>());
+//            }
+//        }
+//    }
 }

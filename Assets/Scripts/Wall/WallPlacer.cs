@@ -24,8 +24,29 @@ public class WallPlacer : MonoBehaviour
     public void PlaceWall()
     {
         transform.GetChild(0).gameObject.SetActive(true);
+        transform.GetChild(0).GetComponent<WallEntity>().OnWall();
         transform.GetChild(1).gameObject.SetActive(true);
+        transform.GetChild(1).GetComponent<WallEntity>().OnWall();
         transform.GetChild(2).gameObject.SetActive(true);
+        transform.GetChild(2).GetComponent<PlacerOffer>().OnOffer();
+    }
+
+    public void RemoveWall()
+    {
+        transform.GetChild(0).GetComponent<WallEntity>().OffWall();
+        transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(1).GetComponent<WallEntity>().OffWall();
+        transform.GetChild(1).gameObject.SetActive(false);
+        transform.GetChild(2).GetComponent<PlacerOffer>().Offer();
+        transform.GetChild(2).gameObject.SetActive(false);
+    }
+
+    public void TurnOn()
+    {
+        gameObject.GetComponent<MeshRenderer>().enabled = true;
+        gameObject.GetComponent<BoxCollider>().enabled = true;
+        state = true;
+        mM.UpdatePlacers(this.gameObject);
     }
 
     public void TurnOff()
@@ -45,6 +66,7 @@ public class WallPlacer : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 PlaceWall();
+                TileManager.instance.SimulatePlacer(this.gameObject);
                 tM.GetCurrentPlayer().ChangePlayerState(EstadoIA.Check);
                 
             }
