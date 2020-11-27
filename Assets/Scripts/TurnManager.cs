@@ -45,4 +45,15 @@ public class TurnManager : MonoBehaviour
     {
         return players[currentPlayer];
     }
+
+    public IA GetNextPlayer()
+    {
+        if (currentPlayer+1 >= players.Count)
+        {
+            return players[0];
+        } else
+        {
+            return players[currentPlayer + 1];
+        }
+    }
 }

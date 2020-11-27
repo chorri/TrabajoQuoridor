@@ -40,12 +40,12 @@ public class WallPlacer : MonoBehaviour
     //Unity Methods
 
     private void OnMouseOver() {
-        if (tM.players[tM.currentPlayer].playerControlled && tM.players[tM.currentPlayer].currentState == EstadoIA.Act)
+        if (tM.GetCurrentPlayer().playerControlled && tM.GetCurrentPlayer().currentState == EstadoIA.Act)
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 PlaceWall();
-                tM.players[tM.currentPlayer].ChangePlayerState(EstadoIA.Check);
+                tM.GetCurrentPlayer().ChangePlayerState(EstadoIA.Check);
                 
             }
         }

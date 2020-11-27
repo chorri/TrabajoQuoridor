@@ -21,7 +21,7 @@ public class Pathfinding : MonoBehaviour
     }
 
     public CaminoCompleto AStar(Nodo ini,Nodo fin) {
-        CaminoCompleto movimientos = new CaminoCompleto();
+        CaminoCompleto sinCamino = new CaminoCompleto();
 
         List<Nodo> posibles = new List<Nodo>();
         List<Nodo> revisados = new List<Nodo>();
@@ -32,7 +32,7 @@ public class Pathfinding : MonoBehaviour
             //Definir cual es el nodo actual entre todos los nodos posibles
             
             if (posibles.Count <=0) {
-                return movimientos;
+                return sinCamino;
             }
 
             Nodo actual = posibles[0];
@@ -71,7 +71,8 @@ public class Pathfinding : MonoBehaviour
             }
         }
         //Return Empty
-        return movimientos;
+        Debug.Log("It is impresive that you manage to find the way and at the same time dont find a way");
+        return sinCamino;
     }
 
     CaminoCompleto FinalizarCamino(Nodo i, Nodo f) {

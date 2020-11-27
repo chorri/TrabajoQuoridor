@@ -72,6 +72,9 @@ public class IA : MonoBehaviour
                     break;
                 case EstadoIA.Check:
                     CheckWin();
+
+                    DefineCaminoObjetivo();//Jugador Tiene camino objetivo al final de su turno
+
                     if (Time.time - timeStart > maxTime / 2)
                     {
                         //CheckStacked
@@ -102,43 +105,35 @@ public class IA : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
-                    caminoObjetivo.ShowDirection();
+                    //caminoObjetivo.ShowDirection();
                     caminoObjetivo.ShowPath(3);
-                    Debug.Log("-");
+                    Debug.Log(gameObject.name+"->"+caminoObjetivo.caminoNodo.Count);
                 }
 
 
 
                 break;
             case EstadoIA.Act:
-                caminoObjetivo = new CaminoCompleto();
-                foreach (Nodo item in objetivos)
-                {   
-                    CaminoCompleto temp;
-                    temp = Pathfinding.instance.AStar(nodoActual, item);
 
-                    temp.ShowPath(1);
-                    todosCaminos.Add(temp);
-
-                    if (caminoObjetivo.caminoNodo.Count == 0 || temp.caminoNodo.Count < caminoObjetivo.caminoNodo.Count)
-                    {
-                        if (temp.caminoNodo.Contains(item))
-                        {
-                            caminoObjetivo = temp;
-                        }
-                    }
-                }
+                DefineCaminoObjetivo();
 
                 IA posWiner=this;
                 foreach (IA item in TurnManager.instance.players)
                 {
-                    if (posWiner.caminoObjetivo.caminoNodo.Count< item.caminoObjetivo.caminoNodo.Count)
+                    if (posWiner.caminoObjetivo.caminoNodo.Count > item.caminoObjetivo.caminoNodo.Count)
                     {
                         posWiner = item;
                     }
                 }
-                Debug.LogError(posWiner.name);
+                Debug.LogError(gameObject.name +": "+caminoObjetivo.caminoNodo.Count + " vs " + posWiner.gameObject.name+": " +posWiner.caminoObjetivo.caminoNodo.Count);
 
+                //Calcular Muro Optimo
+
+                //Si el siguiente jugador es el posWinner
+                if (TurnManager.instance.GetNextPlayer() == posWiner)
+                {//Colocar Muro Optimo
+
+                }
 
                 timeStart = Time.time;
                 currentState = EstadoIA.Move;
@@ -185,6 +180,35 @@ public class IA : MonoBehaviour
                 break;
         }
     }
+
+    //Greedy
+    void CalculateBestWall(IA obj)
+    {
+        //CaminoCompleto nuevoCamino =
+    }
+
+    void DefineCaminoObjetivo()
+    {
+        caminoObjetivo = new CaminoCompleto();
+        foreach (Nodo item in objetivos)
+        {
+            CaminoCompleto temp;
+            temp = Pathfinding.instance.AStar(nodoActual, item);
+
+            temp.ShowPath(1);
+            todosCaminos.Add(temp);
+
+            if (caminoObjetivo.caminoNodo.Count == 0 || temp.caminoNodo.Count < caminoObjetivo.caminoNodo.Count)
+            {
+                if (temp.caminoNodo.Contains(item))
+                {
+                    caminoObjetivo = temp;
+                }
+            }
+        }
+    }
+
+
 
     void CheckWin()
     {

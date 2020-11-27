@@ -32,7 +32,7 @@ public class NodoSelector : MonoBehaviour
 
     private void OnMouseOver()
     {
-        IA currentPlayer = tM.players[tM.currentPlayer];
+        IA currentPlayer = tM.GetCurrentPlayer();
         if (currentPlayer.playerControlled &&
             (currentPlayer.currentState == EstadoIA.Act || currentPlayer.currentState == EstadoIA.Move))
         {
@@ -47,11 +47,11 @@ public class NodoSelector : MonoBehaviour
 
                 if (currentPlayer.currentState == EstadoIA.Act)
                 {
-                    tM.players[tM.currentPlayer].ChangePlayerState(EstadoIA.Move);
+                    tM.GetCurrentPlayer().ChangePlayerState(EstadoIA.Move);
                 }
                 else
                 {
-                    tM.players[tM.currentPlayer].ChangePlayerState(EstadoIA.Check);
+                    tM.GetCurrentPlayer().ChangePlayerState(EstadoIA.Check);
                 }
 
             }
