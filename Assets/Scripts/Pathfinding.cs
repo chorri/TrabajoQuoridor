@@ -20,8 +20,9 @@ public class Pathfinding : MonoBehaviour
 
     }
 
+    //O(n^2)
     public CaminoCompleto AStar(Nodo ini,Nodo fin) {
-        CaminoCompleto sinCamino = new CaminoCompleto();
+        CaminoCompleto sinCamino = new CaminoCompleto(); 
 
         List<Nodo> posibles = new List<Nodo>();
         List<Nodo> revisados = new List<Nodo>();

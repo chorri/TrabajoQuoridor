@@ -127,13 +127,37 @@ public class IA : MonoBehaviour
                 }
                 Debug.LogError(gameObject.name +": "+caminoObjetivo.caminoNodo.Count + " vs " + posWiner.gameObject.name+": " +posWiner.caminoObjetivo.caminoNodo.Count);
 
-                //Calcular Muro Optimo
+                if (posWiner.caminoObjetivo.caminoNodo.Count > 0)
+                {
+                    //Debug.Log(posWiner.caminoObjetivo.caminoNodo[0].gameObject.name);
 
-                //Si el siguiente jugador es el posWinner
-                if (TurnManager.instance.GetNextPlayer() == posWiner)
-                {//Colocar Muro Optimo
+                    //if ()
+                    //{
+                        //Calcular Muro Optimo
+                        TileManager temp = TileManager.instance;
+                        WallPlacer bestWall = temp.CalculateBestWall(temp.ReturnEquivalentNode(posWiner.nodoActual),
+                                                                        temp.ReturnEquivalentNode(posWiner.caminoObjetivo.caminoNodo[0]),
+                                                                        posWiner.caminoObjetivo);
 
+                        Debug.Log(bestWall.name);
+                        //
+                        if (bestWall != null)
+                        {
+                            //Si el siguiente jugador es el posWinner
+                            int r = Random.Range(1, 101);
+
+                            if (TurnManager.instance.GetNextPlayer() == posWiner || r >= 70)
+                            {//Colocar Muro Optimo
+                             //Guardar en Diccionario
+                                Debug.Log("Place Wall");
+                                bestWall.PlaceWall();
+                                MazeManager.instance.UpdatePlacers(bestWall.gameObject);
+                                MazeManager.instance.AddToResultDictionary(bestWall.gameObject.name);
+                            }
+                        }
+                    //}
                 }
+                
 
                 timeStart = Time.time;
                 currentState = EstadoIA.Move;

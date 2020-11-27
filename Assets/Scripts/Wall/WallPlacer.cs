@@ -39,6 +39,17 @@ public class WallPlacer : MonoBehaviour
         transform.GetChild(1).gameObject.SetActive(false);
         transform.GetChild(2).GetComponent<PlacerOffer>().Offer();
         transform.GetChild(2).gameObject.SetActive(false);
+        TileManager.instance.SimulatePlaceRemove(this.gameObject);
+    }
+
+    public void SimulateRemoveWall()
+    {
+        transform.GetChild(0).GetComponent<WallEntity>().OffWall();
+        transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(1).GetComponent<WallEntity>().OffWall();
+        transform.GetChild(1).gameObject.SetActive(false);
+        transform.GetChild(2).GetComponent<PlacerOffer>().Offer();
+        transform.GetChild(2).gameObject.SetActive(false);
     }
 
     public void TurnOn()

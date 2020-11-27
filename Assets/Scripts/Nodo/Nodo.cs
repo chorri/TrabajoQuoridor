@@ -30,7 +30,7 @@ public class Nodo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DebugText();
+        //DebugText();
     }
 
     void DebugText()
@@ -55,7 +55,7 @@ public class Nodo : MonoBehaviour
     public void SetCheckAgain(bool value)
     {
         checkAgain = value;
-        Debug.Log("Entro");
+        //Debug.Log("Entro");
     }
 
 
