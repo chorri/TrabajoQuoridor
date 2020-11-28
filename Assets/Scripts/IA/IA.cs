@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -26,6 +27,7 @@ public class IA : MonoBehaviour
     float timeStart;
     float maxTime = 0.5f;
 
+    public bool showPaths;
     
 
     // Start is called before the first frame update
@@ -43,53 +45,57 @@ public class IA : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerControlled)
+        if (!WinObject.instance.IsThereAWinner())
         {
-            switch (currentState)
+            if (playerControlled)
             {
-                case EstadoIA.Wait:
-                    break;
-                case EstadoIA.Act:
-                    foreach (Nodo nodo in nodoActual.adjacentes)
-                    {
-                        nodo.cuerpo.materialActive = true;
-                    }
-                    break;
-                case EstadoIA.Move:
-                    if (Time.time - timeStart > maxTime / 2)
-                    {
-                        if (!stacked)
+                switch (currentState)
+                {
+                    case EstadoIA.Wait:
+                        break;
+                    case EstadoIA.Act:
+                        foreach (Nodo nodo in nodoActual.adjacentes)
                         {
-                            ChangePlayerState(EstadoIA.Check);
-                        } else
+                            nodo.cuerpo.materialActive = true;
+                        }
+                        break;
+                    case EstadoIA.Move:
+                        if (Time.time - timeStart > maxTime / 2)
                         {
-                            foreach (Nodo nodo in nodoActual.adjacentes)
+                            if (!stacked)
                             {
-                                nodo.cuerpo.materialActive = true;
+                                ChangePlayerState(EstadoIA.Check);
+                            }
+                            else
+                            {
+                                foreach (Nodo nodo in nodoActual.adjacentes)
+                                {
+                                    nodo.cuerpo.materialActive = true;
+                                }
                             }
                         }
-                    }
-                    break;
-                case EstadoIA.Check:
-                    CheckWin();
+                        break;
+                    case EstadoIA.Check:
+                        CheckWin();
 
-                    DefineCaminoObjetivo();//Jugador Tiene camino objetivo al final de su turno
+                        DefineCaminoObjetivo();//Jugador Tiene camino objetivo al final de su turno
 
-                    if (Time.time - timeStart > maxTime / 2)
-                    {
-                        //CheckStacked
-                        currentState = EstadoIA.Wait;
-                        TurnManager.instance.NextPlayer();
-                    }
-                    break;
-                default:
-                    break;
+                        if (Time.time - timeStart > maxTime / 2)
+                        {
+                            //CheckStacked
+                            currentState = EstadoIA.Wait;
+                            TurnManager.instance.NextPlayer();
+                        }
+                        break;
+                    default:
+                        break;
+                }
             }
-        } else
-        {
-            IAControlled();
+            else
+            {
+                IAControlled();
+            }
         }
-        
     }
 
     void IAControlled()
@@ -114,8 +120,11 @@ public class IA : MonoBehaviour
 
                 break;
             case EstadoIA.Act:
-
+                DateTime before = DateTime.Now;
                 DefineCaminoObjetivo();
+                DateTime after = DateTime.Now;
+                TimeSpan time = after.Subtract(before);
+                Debug.LogWarning("Duracion de A* en ms: " + time.Milliseconds);
 
                 IA posWiner=this;
                 foreach (IA item in TurnManager.instance.players)
@@ -125,14 +134,14 @@ public class IA : MonoBehaviour
                         posWiner = item;
                     }
                 }
-                Debug.LogError(gameObject.name +": "+caminoObjetivo.caminoNodo.Count + " vs " + posWiner.gameObject.name+": " +posWiner.caminoObjetivo.caminoNodo.Count);
+                //Debug.LogError(gameObject.name +": "+caminoObjetivo.caminoNodo.Count + " vs " + posWiner.gameObject.name+": " +posWiner.caminoObjetivo.caminoNodo.Count);
 
                 if (posWiner.caminoObjetivo.caminoNodo.Count > 0)
                 {
                     //Debug.Log(posWiner.caminoObjetivo.caminoNodo[0].gameObject.name);
 
-                    //if ()
-                    //{
+                    if (true)
+                    {
                         //Calcular Muro Optimo
                         TileManager temp = TileManager.instance;
                         WallPlacer bestWall = temp.CalculateBestWall(temp.ReturnEquivalentNode(posWiner.nodoActual),
@@ -144,9 +153,9 @@ public class IA : MonoBehaviour
                         if (bestWall != null)
                         {
                             //Si el siguiente jugador es el posWinner
-                            int r = Random.Range(1, 101);
+                            int r = UnityEngine.Random.Range(1, 101);
 
-                            if (TurnManager.instance.GetNextPlayer() == posWiner || r >= 70)
+                            if (/*TurnManager.instance.GetNextPlayer() == posWiner ||*/ r >= 23)
                             {//Colocar Muro Optimo
                              //Guardar en Diccionario
                                 Debug.Log("Place Wall");
@@ -155,7 +164,7 @@ public class IA : MonoBehaviour
                                 MazeManager.instance.AddToResultDictionary(bestWall.gameObject.name);
                             }
                         }
-                    //}
+                    }
                 }
                 
 
@@ -163,22 +172,6 @@ public class IA : MonoBehaviour
                 currentState = EstadoIA.Move;
                 break;
             case EstadoIA.Move:
-                //                if (todosCaminos.Count > 0) {
-                //                    if (Time.time - timeStart > maxTime*0.2f) {
-                //                        Debug.Log("----");
-                //                        todosCaminos[todosCaminos.Count - 1].ShowPath(0.5f);
-                //                        todosCaminos[todosCaminos.Count - 1].ShowDirection();
-                //                        todosCaminos.RemoveAt(todosCaminos.Count - 1);
-                //                        timeStart = Time.time;
-                //                    }
-                //                } else {
-                //Vector3 objetivo = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 1].transform.position;
-                //if (Vector3.Distance(transform.position, objetivo) < 0.1) {
-                //    transform.position = objetivo;
-                //    currentState = EstadoIA.Wait;
-                //} else {
-                //    Vector3.Lerp(transform.position, objetivo, 0.15f);
-                //}
                 if (Time.time - timeStart > maxTime)
                 {
                     transform.position = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 1].transform.position + Vector3.up;
@@ -218,8 +211,12 @@ public class IA : MonoBehaviour
         {
             CaminoCompleto temp;
             temp = Pathfinding.instance.AStar(nodoActual, item);
+            
+            if (showPaths)
+            {
+                temp.ShowPath(1);
+            }
 
-            temp.ShowPath(1);
             todosCaminos.Add(temp);
 
             if (caminoObjetivo.caminoNodo.Count == 0 || temp.caminoNodo.Count < caminoObjetivo.caminoNodo.Count)
@@ -240,7 +237,7 @@ public class IA : MonoBehaviour
         {
             if (item == nodoActual)
             {
-                Debug.Log("WINNER" + gameObject.name);
+                WinObject.instance.Win(gameObject.name);
             }
         }
     }

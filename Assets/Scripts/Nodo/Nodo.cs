@@ -30,7 +30,7 @@ public class Nodo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //DebugText();
+        DebugText();
     }
 
     void DebugText()

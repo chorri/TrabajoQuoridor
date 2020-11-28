@@ -108,7 +108,7 @@ public class MazeManager : MonoBehaviour
         {
             //Debug.Log( ConvertToBinary());
             //diccionario.Add(this, test);
-            AddToResultDictionary("Test");
+            //AddToResultDictionary("Test");
 
             //Diccionario de Paredes Horizontales
             foreach (string item in hDic.Keys)
