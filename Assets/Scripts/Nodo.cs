@@ -29,11 +29,27 @@ public class Nodo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ResetValues();
+        }
+
         foreach (var i in adjacentes) {
-            Debug.DrawLine(objeto.position,i.GetTransform().position,Color.red);
+            Debug.DrawLine(objeto.position, i.GetTransform().position, Color.red);
         }
         trabajoTexto.text = trabajo.ToString();
         distanciaTexto.text = distancia.ToString();
+    }
+
+    public void ResetValues()
+    {
+        Debug.Log("Test");
+        trabajo = 0;
+        trabajoTexto.text = "0";
+        distancia = 0;
+        distanciaTexto.text = "0";
+
+        totalTexto.text = "-";
     }
 
     public int CostoTotal() {
