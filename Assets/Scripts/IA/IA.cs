@@ -18,15 +18,9 @@ public class IA : MonoBehaviour
 
     //Para mostrar todos los caminos
     List<CaminoCompleto> todosCaminos = new List<CaminoCompleto>();
+    //Reloj
     float timeStart;
     float maxTime = 1.5f;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-     
-    }
 
     // Update is called once per frame
     void Update()

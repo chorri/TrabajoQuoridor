@@ -7,17 +7,8 @@ public class Pathfinding : MonoBehaviour
 
     public static Pathfinding instance;
 
-//    public Nodo inicio;
-//    public Nodo final;
-
     void Start() {
         instance = this;
-    }
-
-    // Start is called before the first frame update
-    void Update()
-    {
-
     }
 
     public CaminoCompleto AStar(Nodo ini,Nodo fin) {
@@ -96,15 +87,5 @@ public class Pathfinding : MonoBehaviour
 
     int CalcDistancia(Nodo a,Nodo b) {
         return (int) Vector3.Distance(a.GetTransform().position, b.GetTransform().position);
-    }
-
-
-
-    //bfs
-    public CaminoCompleto BFS() {
-        CaminoCompleto movimientos = new CaminoCompleto();
-
-
-        return movimientos;
     }
 }

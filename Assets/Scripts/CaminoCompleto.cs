@@ -13,11 +13,14 @@ public class CaminoCompleto
         caminoNodo = new List<Nodo>();
     }
 
+    //Muestra la direccion en la consola (Igual a print)
     public void ShowDirection() {
         for (int i = 0; i < caminoDireccion.Count; i++) {
             Debug.Log(caminoDireccion[i]);
         }
     }
+
+    //Diferentes Overloads para mostrar el camino creado
 
     public void ShowPath(int duration) {
         foreach (Nodo actual in caminoNodo) {

@@ -9,7 +9,7 @@ public class Nodo : MonoBehaviour
     public TextMesh trabajoTexto;
     public int distancia = 0;
     public TextMesh distanciaTexto;
-    public TextMesh totalTexto;
+    public TextMesh totalTexto;     //heuristica
 
     public Nodo direccion;
 
@@ -19,21 +19,22 @@ public class Nodo : MonoBehaviour
     Transform objeto;
     List<BoxCollider> busquedaAdjacentes;
 
-    // Start is called before the first frame update
+    // Asignación de valores Unity
     void Start()
     {
         objeto = this.transform;
         totalTexto = transform.Find("Total").GetComponent<TextMesh>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //Presionando R se resetean los valores visuales de los nodos
         if (Input.GetKeyDown(KeyCode.R))
         {
             ResetValues();
         }
 
+        //Dibuja la linea roja entre los diferentes Nodos
         foreach (var i in adjacentes) {
             Debug.DrawLine(objeto.position, i.GetTransform().position, Color.red);
         }
@@ -41,6 +42,7 @@ public class Nodo : MonoBehaviour
         distanciaTexto.text = distancia.ToString();
     }
 
+    //Metodo para resetear Valores
     public void ResetValues()
     {
         Debug.Log("Test");
@@ -52,15 +54,18 @@ public class Nodo : MonoBehaviour
         totalTexto.text = "-";
     }
 
+    //Calculo de Heurística
     public int CostoTotal() {
         totalTexto.text = (trabajo + distancia).ToString();
         return trabajo + distancia;
     }
 
+    //Metodo de Unity
     public Transform GetTransform() {
         return objeto;
     }
 
+    //Metodo de Unity que perite obtener valores de una colision, en este caso se usa para asignar los nodos adjacentes
     private void OnTriggerEnter(Collider other) {
         if (other.tag == "Nodo" && other.transform.parent != this.transform) {
             adjacentes.Add(other.transform.parent.GetComponent<Nodo>());
