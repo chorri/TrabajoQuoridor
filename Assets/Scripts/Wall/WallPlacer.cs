@@ -2,23 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Entidad encargada de crear muros para eliminar las conexiones entre los Nodos
 public class WallPlacer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnMouseOver() {        
-        if (Input.GetKeyDown(KeyCode.Mouse0)) {
+    //Metodo que reconoce si el mouse esta encima de la entidad
+    private void OnMouseOver() {
+        //Si se presiona el click izquierdo
+        //Activar el muro
+        if (Input.GetKey(KeyCode.Mouse0)) {
             transform.GetChild(0).gameObject.SetActive(true);
+        }
+        if (Input.GetKey(KeyCode.Mouse1))
+        {
+            transform.GetChild(0).gameObject.SetActive(false);
         }
     }
 }

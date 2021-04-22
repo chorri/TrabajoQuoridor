@@ -5,11 +5,11 @@ using UnityEngine;
 public class Nodo : MonoBehaviour
 {
 
-    public int trabajo = 0;
-    public TextMesh trabajoTexto;
-    public int distancia = 0;
-    public TextMesh distanciaTexto;
-    public TextMesh totalTexto;     //heuristica
+    public int Gs = 0;
+    public TextMesh GsTexto;
+    public int Hs = 0;
+    public TextMesh HsTexto;
+    public TextMesh Fs;     //heuristica
 
     public Nodo direccion;
 
@@ -17,13 +17,15 @@ public class Nodo : MonoBehaviour
 
     //Valores Unity
     Transform objeto;
-    List<BoxCollider> busquedaAdjacentes;
 
     // Asignación de valores Unity
     void Start()
     {
         objeto = this.transform;
-        totalTexto = transform.Find("Total").GetComponent<TextMesh>();
+        GsTexto = transform.Find("Gs").GetComponent<TextMesh>();
+        HsTexto = transform.Find("Hs").GetComponent<TextMesh>();
+        Fs = transform.Find("Total").GetComponent<TextMesh>();
+
     }
 
     void Update()
@@ -38,26 +40,25 @@ public class Nodo : MonoBehaviour
         foreach (var i in adjacentes) {
             Debug.DrawLine(objeto.position, i.GetTransform().position, Color.red);
         }
-        trabajoTexto.text = trabajo.ToString();
-        distanciaTexto.text = distancia.ToString();
+        GsTexto.text = Gs.ToString();
+        HsTexto.text = Hs.ToString();
     }
 
     //Metodo para resetear Valores
     public void ResetValues()
     {
-        Debug.Log("Test");
-        trabajo = 0;
-        trabajoTexto.text = "0";
-        distancia = 0;
-        distanciaTexto.text = "0";
+        Gs = 0;
+        GsTexto.text = "0";
+        Hs = 0;
+        HsTexto.text = "0";
 
-        totalTexto.text = "-";
+        Fs.text = "-";
     }
 
     //Calculo de Heurística
-    public int CostoTotal() {
-        totalTexto.text = (trabajo + distancia).ToString();
-        return trabajo + distancia;
+    public int CalcularF() {
+        Fs.text = (Gs + Hs).ToString();
+        return Gs + Hs;
     }
 
     //Metodo de Unity

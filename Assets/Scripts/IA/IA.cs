@@ -43,7 +43,6 @@ public class IA : MonoBehaviour
                     CaminoCompleto temp = new CaminoCompleto();
                     temp = Pathfinding.instance.AStar(nodoActual,item);
 
-                    //temp.ShowPath(1);
                     todosCaminos.Add(temp);
 
                     if (caminoObjetivo.caminoNodo.Count == 0 || temp.caminoNodo.Count < caminoObjetivo.caminoNodo.Count) {
@@ -62,14 +61,7 @@ public class IA : MonoBehaviour
                         timeStart = Time.time;
                     }
                 } else {
-                    //Vector3 objetivo = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 1].transform.position;
-                    //if (Vector3.Distance(transform.position, objetivo) < 0.1) {
-                    //    transform.position = objetivo;
-                    //    currentState = EstadoIA.Wait;
-                    //} else {
-                    //    Vector3.Lerp(transform.position, objetivo, 0.15f);
-                    //}
-                    if (Time.time - timeStart > maxTime+2) {
+                                        if (Time.time - timeStart > maxTime+2) {
                         caminoObjetivo.ShowPath(1, Color.green);
                         transform.position = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 1].transform.position;
                         currentState = EstadoIA.Wait;

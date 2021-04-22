@@ -14,42 +14,49 @@ public class Pathfinding : MonoBehaviour
     public CaminoCompleto AStar(Nodo ini,Nodo fin) {
         CaminoCompleto movimientos = new CaminoCompleto();
 
-        List<Nodo> posibles = new List<Nodo>();
-        List<Nodo> revisados = new List<Nodo>();
-        posibles.Add(ini);
+        List<Nodo> openList = new List<Nodo>();
+        List<Nodo> closeList = new List<Nodo>();
+        openList.Add(ini);
 
         //Mientras no se explore el fin
-        while (!revisados.Contains(fin)) {
+        while (!closeList.Contains(fin)) {
+
+            if (openList.Count == 0)
+            {
+                Debug.Log("No hay camino posible");
+                break;
+            }
+
             //Definir cual es el nodo actual entre todos los nodos posibles
-            Nodo actual = posibles[0];
-            for (int i = 0; i < posibles.Count; i++) {
-                if (posibles[i].CostoTotal() < actual.CostoTotal() ||
-                    posibles[i].CostoTotal() == actual.CostoTotal() && posibles[i].distancia<actual.distancia) {
-                    actual = posibles[i];
+            Nodo actual = openList[0];
+            for (int i = 0; i < openList.Count; i++) {
+                if (openList[i].CalcularF() < actual.CalcularF() ||
+                    openList[i].CalcularF() == actual.CalcularF() && openList[i].Hs<actual.Hs) {
+                    actual = openList[i];
                 }
             }
 
             //Remover y agregar a la lista de revisados el actual
-            posibles.Remove(actual);
-            revisados.Add(actual);
+            openList.Remove(actual);
+            closeList.Add(actual);
 
             if (actual==fin) {
                 return FinalizarCamino(ini, fin); ;
             }
 
             foreach (var item in actual.adjacentes) {
-                if (revisados.Contains(item)) {
+                if (closeList.Contains(item)) {
                     continue;
                 }
 
-                int nuevoTrabajo = actual.trabajo + CalcDistancia(actual, item);
-                if (nuevoTrabajo < item.trabajo || !posibles.Contains(item)) {
-                    item.trabajo = nuevoTrabajo;
-                    item.distancia = CalcDistancia(item, fin);
+                int nuevoTrabajo = actual.Gs + CalcDistancia(actual, item);
+                if (nuevoTrabajo < item.Gs || !openList.Contains(item)) {
+                    item.Gs = nuevoTrabajo;
+                    item.Hs = CalcDistancia(item, fin);
                     item.direccion = actual;
 
-                    if (!posibles.Contains(item)) {
-                        posibles.Add(item);
+                    if (!openList.Contains(item)) {
+                        openList.Add(item);
                     }
                 }
             }

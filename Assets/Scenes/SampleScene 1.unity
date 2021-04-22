@@ -419,11 +419,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 521872119}
-  distancia: 0
-  distanciaTexto: {fileID: 930463544}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &2982921
@@ -567,11 +567,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 2052752254}
-  distancia: 0
-  distanciaTexto: {fileID: 1956419738}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &7039093
@@ -692,7 +692,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &7195520
 MeshRenderer:
@@ -846,7 +846,7 @@ GameObject:
   - component: {fileID: 13818094}
   - component: {fileID: 13818093}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -985,7 +985,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &14687618
 MeshRenderer:
@@ -1115,11 +1115,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 2097248566}
-  distancia: 0
-  distanciaTexto: {fileID: 730833545}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &18206968
@@ -1356,11 +1356,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 222990996}
-  distancia: 0
-  distanciaTexto: {fileID: 76706861}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &31557442
@@ -1504,11 +1504,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1760303846}
-  distancia: 0
-  distanciaTexto: {fileID: 1766511749}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &32853244
@@ -2048,7 +2048,7 @@ GameObject:
   - component: {fileID: 49107759}
   - component: {fileID: 49107758}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2210,11 +2210,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 370094814}
-  distancia: 0
-  distanciaTexto: {fileID: 1059117744}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &55272103
@@ -2335,7 +2335,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &55801515
 MeshRenderer:
@@ -2520,7 +2520,7 @@ GameObject:
   - component: {fileID: 62125122}
   - component: {fileID: 62125121}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2613,7 +2613,7 @@ GameObject:
   - component: {fileID: 62368334}
   - component: {fileID: 62368333}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2775,11 +2775,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 922273893}
-  distancia: 0
-  distanciaTexto: {fileID: 752380674}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &62562955
@@ -2923,11 +2923,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1012456438}
-  distancia: 0
-  distanciaTexto: {fileID: 779484570}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &64519585
@@ -3048,7 +3048,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &73224867
 MeshRenderer:
@@ -3109,7 +3109,7 @@ GameObject:
   - component: {fileID: 76706862}
   - component: {fileID: 76706861}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3271,11 +3271,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 992341119}
-  distancia: 0
-  distanciaTexto: {fileID: 775670269}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &76905708
@@ -3396,7 +3396,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &77434162
 MeshRenderer:
@@ -3567,7 +3567,7 @@ GameObject:
   - component: {fileID: 84977914}
   - component: {fileID: 84977913}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3726,7 +3726,7 @@ GameObject:
   - component: {fileID: 95413062}
   - component: {fileID: 95413061}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3819,7 +3819,7 @@ GameObject:
   - component: {fileID: 96345718}
   - component: {fileID: 96345717}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4005,7 +4005,7 @@ GameObject:
   - component: {fileID: 101901194}
   - component: {fileID: 101901193}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4167,11 +4167,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 255535320}
-  distancia: 0
-  distanciaTexto: {fileID: 263955559}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &109166383
@@ -4234,6 +4234,99 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109166378}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &114600935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 114600939}
+  - component: {fileID: 114600938}
+  - component: {fileID: 114600937}
+  - component: {fileID: 114600936}
+  m_Layer: 0
+  m_Name: B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &114600936
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114600935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &114600937
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114600935}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &114600938
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114600935}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &114600939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114600935}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.602, y: 19.052284, z: -39.14334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &118460798
 GameObject:
   m_ObjectHideFlags: 0
@@ -4385,7 +4478,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &119845295
 MeshRenderer:
@@ -4616,7 +4709,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &121612351
 MeshRenderer:
@@ -4677,7 +4770,7 @@ GameObject:
   - component: {fileID: 122100316}
   - component: {fileID: 122100315}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4839,11 +4932,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 202010457}
-  distancia: 0
-  distanciaTexto: {fileID: 754911735}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &125713873
@@ -4964,7 +5057,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &126686906
 MeshRenderer:
@@ -5025,7 +5118,7 @@ GameObject:
   - component: {fileID: 127153158}
   - component: {fileID: 127153157}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5448,7 +5541,7 @@ GameObject:
   - component: {fileID: 133711472}
   - component: {fileID: 133711471}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5665,7 +5758,7 @@ GameObject:
   - component: {fileID: 144969522}
   - component: {fileID: 144969521}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6371,11 +6464,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1819933345}
-  distancia: 0
-  distanciaTexto: {fileID: 784266006}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &163743735
@@ -6438,6 +6531,99 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163743730}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &167308249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 167308250}
+  - component: {fileID: 167308252}
+  - component: {fileID: 167308251}
+  m_Layer: 0
+  m_Name: Total
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &167308250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167308249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475944188}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &167308251
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167308249}
+  m_Text: '-'
+  m_OffsetZ: 0
+  m_CharacterSize: 0.75
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278249713
+--- !u!23 &167308252
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167308249}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &168341017
 GameObject:
   m_ObjectHideFlags: 0
@@ -6574,7 +6760,7 @@ GameObject:
   - component: {fileID: 168816651}
   - component: {fileID: 168816650}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6915,7 +7101,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &170441778
 MeshRenderer:
@@ -7045,11 +7231,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1222101386}
-  distancia: 0
-  distanciaTexto: {fileID: 775964671}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &175003601
@@ -7193,11 +7379,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 942813305}
-  distancia: 0
-  distanciaTexto: {fileID: 335300371}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &176571612
@@ -7318,7 +7504,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &179642064
 MeshRenderer:
@@ -7503,7 +7689,7 @@ GameObject:
   - component: {fileID: 180070529}
   - component: {fileID: 180070528}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7720,7 +7906,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &180519027
 MeshRenderer:
@@ -7827,7 +8013,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &181205175
 MeshRenderer:
@@ -7888,7 +8074,7 @@ GameObject:
   - component: {fileID: 182246419}
   - component: {fileID: 182246418}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8346,11 +8532,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1180271707}
-  distancia: 0
-  distanciaTexto: {fileID: 228923103}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &192765557
@@ -8595,7 +8781,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &195265294
 MeshRenderer:
@@ -8702,7 +8888,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &196588714
 MeshRenderer:
@@ -8856,7 +9042,7 @@ GameObject:
   - component: {fileID: 202010458}
   - component: {fileID: 202010457}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8949,7 +9135,7 @@ GameObject:
   - component: {fileID: 205862057}
   - component: {fileID: 205862056}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9212,7 +9398,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &218002091
 MeshRenderer:
@@ -9521,7 +9707,7 @@ GameObject:
   - component: {fileID: 222990997}
   - component: {fileID: 222990996}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9614,7 +9800,7 @@ GameObject:
   - component: {fileID: 228923104}
   - component: {fileID: 228923103}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9776,11 +9962,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1914745560}
-  distancia: 0
-  distanciaTexto: {fileID: 897861112}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &230085834
@@ -9855,7 +10041,7 @@ GameObject:
   - component: {fileID: 230205414}
   - component: {fileID: 230205413}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10104,7 +10290,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &243814895
 MeshRenderer:
@@ -10335,7 +10521,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &252947053
 MeshRenderer:
@@ -10396,7 +10582,7 @@ GameObject:
   - component: {fileID: 253039011}
   - component: {fileID: 253039010}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10489,7 +10675,7 @@ GameObject:
   - component: {fileID: 255535321}
   - component: {fileID: 255535320}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10706,7 +10892,7 @@ GameObject:
   - component: {fileID: 260811035}
   - component: {fileID: 260811034}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10799,7 +10985,7 @@ GameObject:
   - component: {fileID: 261350485}
   - component: {fileID: 261350484}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10892,7 +11078,7 @@ GameObject:
   - component: {fileID: 263229990}
   - component: {fileID: 263229989}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10985,7 +11171,7 @@ GameObject:
   - component: {fileID: 263955560}
   - component: {fileID: 263955559}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11248,7 +11434,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &269294994
 MeshRenderer:
@@ -11502,11 +11688,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 638248556}
-  distancia: 0
-  distanciaTexto: {fileID: 940932794}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &275364575
@@ -11627,7 +11813,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &275715641
 MeshRenderer:
@@ -11858,7 +12044,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &278103502
 MeshRenderer:
@@ -11919,7 +12105,7 @@ GameObject:
   - component: {fileID: 282628501}
   - component: {fileID: 282628500}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12182,7 +12368,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &293641012
 MeshRenderer:
@@ -12399,7 +12585,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &307103210
 MeshRenderer:
@@ -12694,7 +12880,7 @@ GameObject:
   - component: {fileID: 335300372}
   - component: {fileID: 335300371}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12926,7 +13112,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &341841195
 MeshRenderer:
@@ -12987,7 +13173,7 @@ GameObject:
   - component: {fileID: 344170349}
   - component: {fileID: 344170348}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13149,11 +13335,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 260811034}
-  distancia: 0
-  distanciaTexto: {fileID: 1386150477}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &346203404
@@ -13274,7 +13460,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &352926490
 MeshRenderer:
@@ -13569,7 +13755,7 @@ GameObject:
   - component: {fileID: 364316656}
   - component: {fileID: 364316655}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13755,7 +13941,7 @@ GameObject:
   - component: {fileID: 365587644}
   - component: {fileID: 365587643}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13848,7 +14034,7 @@ GameObject:
   - component: {fileID: 369232111}
   - component: {fileID: 369232110}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13941,7 +14127,7 @@ GameObject:
   - component: {fileID: 370094815}
   - component: {fileID: 370094814}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14103,11 +14289,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 396632573}
-  distancia: 0
-  distanciaTexto: {fileID: 989634104}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &371846121
@@ -14182,7 +14368,7 @@ GameObject:
   - component: {fileID: 372321424}
   - component: {fileID: 372321423}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14478,7 +14664,7 @@ GameObject:
   - component: {fileID: 375410021}
   - component: {fileID: 375410020}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14683,6 +14869,116 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377843707}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &381899896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 381899897}
+  - component: {fileID: 381899901}
+  - component: {fileID: 381899900}
+  - component: {fileID: 381899899}
+  - component: {fileID: 381899898}
+  m_Layer: 0
+  m_Name: Cuerpo
+  m_TagString: Nodo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &381899897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381899896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 0.15}
+  m_Children: []
+  m_Father: {fileID: 475944188}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &381899898
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381899896}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &381899899
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381899896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &381899900
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381899896}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e014fcd380b99fb449a3044b8a39d1d7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &381899901
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381899896}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &382051782
 GameObject:
   m_ObjectHideFlags: 0
@@ -14741,7 +15037,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &382051786
 MeshRenderer:
@@ -14964,11 +15260,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 133711471}
-  distancia: 0
-  distanciaTexto: {fileID: 1350453621}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &391145423
@@ -15360,11 +15656,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 708519882}
-  distancia: 0
-  distanciaTexto: {fileID: 732413866}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &393512260
@@ -15485,7 +15781,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &395556299
 MeshRenderer:
@@ -15670,7 +15966,7 @@ GameObject:
   - component: {fileID: 396632574}
   - component: {fileID: 396632573}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15763,7 +16059,7 @@ GameObject:
   - component: {fileID: 401912199}
   - component: {fileID: 401912198}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15949,7 +16245,7 @@ GameObject:
   - component: {fileID: 410904928}
   - component: {fileID: 410904927}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16135,7 +16431,7 @@ GameObject:
   - component: {fileID: 421522192}
   - component: {fileID: 421522191}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16274,7 +16570,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &421989291
 MeshRenderer:
@@ -16538,7 +16834,7 @@ GameObject:
   - component: {fileID: 424695212}
   - component: {fileID: 424695211}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16631,7 +16927,7 @@ GameObject:
   - component: {fileID: 425693044}
   - component: {fileID: 425693043}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16770,7 +17066,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &428292128
 MeshRenderer:
@@ -16987,7 +17283,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &429288479
 MeshRenderer:
@@ -17218,7 +17514,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &433619397
 MeshRenderer:
@@ -17375,6 +17671,8 @@ Transform:
   - {fileID: 757235241}
   - {fileID: 644304249}
   - {fileID: 1361889403}
+  - {fileID: 475944188}
+  - {fileID: 1064653410}
   m_Father: {fileID: 1548107421}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17390,7 +17688,7 @@ GameObject:
   - component: {fileID: 440951442}
   - component: {fileID: 440951441}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17483,7 +17781,7 @@ GameObject:
   - component: {fileID: 446400097}
   - component: {fileID: 446400096}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17622,7 +17920,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &446927126
 MeshRenderer:
@@ -17729,7 +18027,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &456579922
 MeshRenderer:
@@ -18258,13 +18556,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461878877}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.25, y: 0.5, z: -0}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: 14.95, y: -0.060000062, z: -0.5000002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1179637850}
-  m_Father: {fileID: 1175938061}
-  m_RootOrder: 1
+  m_Father: {fileID: 1548107421}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &461878879
 BoxCollider:
@@ -18459,7 +18757,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &471998577
 MeshRenderer:
@@ -18613,7 +18911,7 @@ GameObject:
   - component: {fileID: 475047240}
   - component: {fileID: 475047239}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18694,6 +18992,154 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &475944187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 475944188}
+  - component: {fileID: 475944194}
+  - component: {fileID: 475944193}
+  - component: {fileID: 475944192}
+  - component: {fileID: 475944191}
+  - component: {fileID: 475944190}
+  - component: {fileID: 475944189}
+  m_Layer: 0
+  m_Name: Center (81)
+  m_TagString: tileArea
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &475944188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475944187}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 21, y: -21.25, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 381899897}
+  - {fileID: 507175323}
+  - {fileID: 1984671054}
+  - {fileID: 167308250}
+  m_Father: {fileID: 438991928}
+  m_RootOrder: 81
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &475944189
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475944187}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &475944190
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475944187}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 2, z: 0.25}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &475944191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475944187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
+  direccion: {fileID: 0}
+  adjacentes: []
+--- !u!65 &475944192
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475944187}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 7, z: 0.25}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &475944193
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475944187}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &475944194
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475944187}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &479320385
 GameObject:
   m_ObjectHideFlags: 0
@@ -18706,7 +19152,7 @@ GameObject:
   - component: {fileID: 479320388}
   - component: {fileID: 479320387}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18845,7 +19291,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &482437456
 MeshRenderer:
@@ -18952,7 +19398,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &482485817
 MeshRenderer:
@@ -19082,11 +19528,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 230205413}
-  distancia: 0
-  distanciaTexto: {fileID: 1363766460}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &484792413
@@ -19891,7 +20337,7 @@ GameObject:
   - component: {fileID: 502859059}
   - component: {fileID: 502859058}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19972,6 +20418,99 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &507175322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 507175323}
+  - component: {fileID: 507175325}
+  - component: {fileID: 507175324}
+  m_Layer: 0
+  m_Name: Gs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &507175323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507175322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475944188}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &507175324
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507175322}
+  m_Text: 12
+  m_OffsetZ: 0
+  m_CharacterSize: 0.5
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 2
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190335
+--- !u!23 &507175325
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507175322}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &507700517
 GameObject:
   m_ObjectHideFlags: 0
@@ -19984,7 +20523,7 @@ GameObject:
   - component: {fileID: 507700520}
   - component: {fileID: 507700519}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20099,11 +20638,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1032489751}
-  distancia: 0
-  distanciaTexto: {fileID: 1700529961}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &512841659
@@ -20294,11 +20833,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1373109693}
-  distancia: 0
-  distanciaTexto: {fileID: 906722515}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &513194845
@@ -20621,7 +21160,7 @@ GameObject:
   - component: {fileID: 517700480}
   - component: {fileID: 517700479}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20807,7 +21346,7 @@ GameObject:
   - component: {fileID: 521872120}
   - component: {fileID: 521872119}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20969,11 +21508,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1292455127}
-  distancia: 0
-  distanciaTexto: {fileID: 613278127}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &522307646
@@ -21642,7 +22181,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &535728703
 MeshRenderer:
@@ -21796,7 +22335,7 @@ GameObject:
   - component: {fileID: 544644746}
   - component: {fileID: 544644745}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22323,7 +22862,7 @@ GameObject:
   - component: {fileID: 557919480}
   - component: {fileID: 557919479}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22462,7 +23001,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &562580065
 MeshRenderer:
@@ -22523,7 +23062,7 @@ GameObject:
   - component: {fileID: 562790015}
   - component: {fileID: 562790014}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22662,7 +23201,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &568633433
 MeshRenderer:
@@ -22893,7 +23432,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &581451634
 MeshRenderer:
@@ -23257,11 +23796,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1328504727}
-  distancia: 0
-  distanciaTexto: {fileID: 205862056}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &597150850
@@ -23475,7 +24014,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &598358088
 MeshRenderer:
@@ -23853,11 +24392,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 364316655}
-  distancia: 0
-  distanciaTexto: {fileID: 2058496121}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &605176876
@@ -23978,7 +24517,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &613092115
 MeshRenderer:
@@ -24039,7 +24578,7 @@ GameObject:
   - component: {fileID: 613278128}
   - component: {fileID: 613278127}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24178,7 +24717,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &618509358
 MeshRenderer:
@@ -24239,7 +24778,7 @@ GameObject:
   - component: {fileID: 620850351}
   - component: {fileID: 620850350}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24401,11 +24940,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 144969521}
-  distancia: 0
-  distanciaTexto: {fileID: 1092144183}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &623063854
@@ -24526,7 +25065,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &625820974
 MeshRenderer:
@@ -24726,7 +25265,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &626185881
 MeshRenderer:
@@ -24833,7 +25372,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &626462658
 MeshRenderer:
@@ -24940,7 +25479,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &630746309
 MeshRenderer:
@@ -25001,7 +25540,7 @@ GameObject:
   - component: {fileID: 638248557}
   - component: {fileID: 638248556}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25264,7 +25803,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &640157909
 MeshRenderer:
@@ -25371,7 +25910,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &644240078
 MeshRenderer:
@@ -25501,11 +26040,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 765026050}
-  distancia: 0
-  distanciaTexto: {fileID: 544644745}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &644304253
@@ -25773,11 +26312,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 507700519}
-  distancia: 0
-  distanciaTexto: {fileID: 475047239}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &652743232
@@ -25945,7 +26484,7 @@ GameObject:
   - component: {fileID: 657722927}
   - component: {fileID: 657722926}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26208,7 +26747,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &662599024
 MeshRenderer:
@@ -26315,7 +26854,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &663444622
 MeshRenderer:
@@ -26422,7 +26961,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &665684269
 MeshRenderer:
@@ -26763,7 +27302,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &680942977
 MeshRenderer:
@@ -26824,7 +27363,7 @@ GameObject:
   - component: {fileID: 682938432}
   - component: {fileID: 682938431}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27027,7 +27566,7 @@ GameObject:
   - component: {fileID: 693853292}
   - component: {fileID: 693853291}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27120,7 +27659,7 @@ GameObject:
   - component: {fileID: 694264489}
   - component: {fileID: 694264488}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27369,7 +27908,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &698079780
 MeshRenderer:
@@ -27554,7 +28093,7 @@ GameObject:
   - component: {fileID: 701100462}
   - component: {fileID: 701100461}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27647,7 +28186,7 @@ GameObject:
   - component: {fileID: 701249294}
   - component: {fileID: 701249293}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27809,11 +28348,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 62368333}
-  distancia: 0
-  distanciaTexto: {fileID: 845121817}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &703800907
@@ -28136,7 +28675,7 @@ GameObject:
   - component: {fileID: 708519883}
   - component: {fileID: 708519882}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28298,11 +28837,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1388679901}
-  distancia: 0
-  distanciaTexto: {fileID: 253039010}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &711770385
@@ -29060,7 +29599,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &728409393
 MeshRenderer:
@@ -29214,7 +29753,7 @@ GameObject:
   - component: {fileID: 730833546}
   - component: {fileID: 730833545}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29307,7 +29846,7 @@ GameObject:
   - component: {fileID: 732413867}
   - component: {fileID: 732413866}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29524,7 +30063,7 @@ GameObject:
   - component: {fileID: 738954123}
   - component: {fileID: 738954122}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29617,7 +30156,7 @@ GameObject:
   - component: {fileID: 742233693}
   - component: {fileID: 742233692}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29710,7 +30249,7 @@ GameObject:
   - component: {fileID: 744382613}
   - component: {fileID: 744382612}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29849,7 +30388,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &751303446
 MeshRenderer:
@@ -29910,7 +30449,7 @@ GameObject:
   - component: {fileID: 752380675}
   - component: {fileID: 752380674}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30003,7 +30542,7 @@ GameObject:
   - component: {fileID: 754911736}
   - component: {fileID: 754911735}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30165,11 +30704,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1431365182}
-  distancia: 0
-  distanciaTexto: {fileID: 62125121}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &757235245
@@ -30337,7 +30876,7 @@ GameObject:
   - component: {fileID: 758555886}
   - component: {fileID: 758555885}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30430,7 +30969,7 @@ GameObject:
   - component: {fileID: 765026051}
   - component: {fileID: 765026050}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30772,7 +31311,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &772489982
 MeshRenderer:
@@ -30833,7 +31372,7 @@ GameObject:
   - component: {fileID: 775670270}
   - component: {fileID: 775670269}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30926,7 +31465,7 @@ GameObject:
   - component: {fileID: 775964672}
   - component: {fileID: 775964671}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31377,7 +31916,7 @@ GameObject:
   - component: {fileID: 779484571}
   - component: {fileID: 779484570}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31539,11 +32078,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 375410020}
-  distancia: 0
-  distanciaTexto: {fileID: 1767234997}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &783184934
@@ -31687,11 +32226,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1368123978}
-  distancia: 0
-  distanciaTexto: {fileID: 1944209217}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &783469030
@@ -31766,7 +32305,7 @@ GameObject:
   - component: {fileID: 784266007}
   - component: {fileID: 784266006}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31859,7 +32398,7 @@ GameObject:
   - component: {fileID: 786652134}
   - component: {fileID: 786652133}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32232,7 +32771,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &799482846
 MeshRenderer:
@@ -32339,7 +32878,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &803353989
 MeshRenderer:
@@ -32446,7 +32985,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &808943480
 MeshRenderer:
@@ -32507,7 +33046,7 @@ GameObject:
   - component: {fileID: 812319008}
   - component: {fileID: 812319007}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32724,7 +33263,7 @@ GameObject:
   - component: {fileID: 823269065}
   - component: {fileID: 823269064}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33097,7 +33636,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &840644901
 MeshRenderer:
@@ -33158,7 +33697,7 @@ GameObject:
   - component: {fileID: 845121818}
   - component: {fileID: 845121817}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33717,7 +34256,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &875123286
 MeshRenderer:
@@ -33948,7 +34487,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &884876586
 MeshRenderer:
@@ -34055,7 +34594,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &884991177
 MeshRenderer:
@@ -34365,7 +34904,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &892073720
 MeshRenderer:
@@ -34646,7 +35185,7 @@ GameObject:
   - component: {fileID: 897861113}
   - component: {fileID: 897861112}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34808,11 +35347,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 365587643}
-  distancia: 0
-  distanciaTexto: {fileID: 1992644823}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &899538858
@@ -34887,7 +35426,7 @@ GameObject:
   - component: {fileID: 906722516}
   - component: {fileID: 906722515}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35228,7 +35767,7 @@ GameObject:
   - component: {fileID: 917612334}
   - component: {fileID: 917612333}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35321,7 +35860,7 @@ GameObject:
   - component: {fileID: 922273894}
   - component: {fileID: 922273893}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35483,11 +36022,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 96345717}
-  distancia: 0
-  distanciaTexto: {fileID: 1397554259}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &925505809
@@ -35672,7 +36211,7 @@ GameObject:
   - component: {fileID: 930463545}
   - component: {fileID: 930463544}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35921,7 +36460,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &934203325
 MeshRenderer:
@@ -36051,11 +36590,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 502859058}
-  distancia: 0
-  distanciaTexto: {fileID: 263229989}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &934438910
@@ -36323,11 +36862,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 122100315}
-  distancia: 0
-  distanciaTexto: {fileID: 1873391367}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &935946092
@@ -36402,7 +36941,7 @@ GameObject:
   - component: {fileID: 940932795}
   - component: {fileID: 940932794}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36712,7 +37251,7 @@ GameObject:
   - component: {fileID: 942813306}
   - component: {fileID: 942813305}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36874,11 +37413,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 557919479}
-  distancia: 0
-  distanciaTexto: {fileID: 1790534469}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &943338678
@@ -36953,7 +37492,7 @@ GameObject:
   - component: {fileID: 944487787}
   - component: {fileID: 944487786}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37202,7 +37741,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &945183279
 MeshRenderer:
@@ -37433,7 +37972,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &951929253
 MeshRenderer:
@@ -37852,7 +38391,7 @@ GameObject:
   - component: {fileID: 962776996}
   - component: {fileID: 962776995}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37945,7 +38484,7 @@ GameObject:
   - component: {fileID: 962832601}
   - component: {fileID: 962832600}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38194,7 +38733,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &964948356
 MeshRenderer:
@@ -38645,7 +39184,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &981284578
 MeshRenderer:
@@ -38845,7 +39384,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &988089796
 MeshRenderer:
@@ -38952,7 +39491,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &988737682
 MeshRenderer:
@@ -39013,7 +39552,7 @@ GameObject:
   - component: {fileID: 989309333}
   - component: {fileID: 989309332}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39106,7 +39645,7 @@ GameObject:
   - component: {fileID: 989634105}
   - component: {fileID: 989634104}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39292,7 +39831,7 @@ GameObject:
   - component: {fileID: 992341120}
   - component: {fileID: 992341119}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39385,7 +39924,7 @@ GameObject:
   - component: {fileID: 994331038}
   - component: {fileID: 994331037}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39524,7 +40063,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1000150719
 MeshRenderer:
@@ -39631,7 +40170,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1000450726
 MeshRenderer:
@@ -39785,7 +40324,7 @@ GameObject:
   - component: {fileID: 1012456439}
   - component: {fileID: 1012456438}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40017,7 +40556,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1016352754
 MeshRenderer:
@@ -40450,7 +40989,7 @@ GameObject:
   - component: {fileID: 1027388752}
   - component: {fileID: 1027388751}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40667,7 +41206,7 @@ GameObject:
   - component: {fileID: 1031233665}
   - component: {fileID: 1031233664}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40760,7 +41299,7 @@ GameObject:
   - component: {fileID: 1032489752}
   - component: {fileID: 1032489751}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40899,7 +41438,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1034143354
 MeshRenderer:
@@ -41209,7 +41748,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1040685775
 MeshRenderer:
@@ -41683,11 +42222,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 962832600}
-  distancia: 0
-  distanciaTexto: {fileID: 1059304640}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1050044388
@@ -41762,7 +42301,7 @@ GameObject:
   - component: {fileID: 1050968113}
   - component: {fileID: 1050968112}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41901,7 +42440,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1052384913
 MeshRenderer:
@@ -41950,6 +42489,99 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052384909}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1055810233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1055810234}
+  - component: {fileID: 1055810236}
+  - component: {fileID: 1055810235}
+  m_Layer: 0
+  m_Name: Gs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1055810234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055810233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1064653410}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1055810235
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055810233}
+  m_Text: 12
+  m_OffsetZ: 0
+  m_CharacterSize: 0.5
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 2
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190335
+--- !u!23 &1055810236
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055810233}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &1059117742
 GameObject:
   m_ObjectHideFlags: 0
@@ -41962,7 +42594,7 @@ GameObject:
   - component: {fileID: 1059117745}
   - component: {fileID: 1059117744}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42055,7 +42687,7 @@ GameObject:
   - component: {fileID: 1059304641}
   - component: {fileID: 1059304640}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42136,6 +42768,154 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &1064653409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1064653410}
+  - component: {fileID: 1064653416}
+  - component: {fileID: 1064653415}
+  - component: {fileID: 1064653414}
+  - component: {fileID: 1064653413}
+  - component: {fileID: 1064653412}
+  - component: {fileID: 1064653411}
+  m_Layer: 0
+  m_Name: Center (82)
+  m_TagString: tileArea
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1064653410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064653409}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.51, y: -19.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1746395875}
+  - {fileID: 1055810234}
+  - {fileID: 1919148223}
+  - {fileID: 1670510422}
+  m_Father: {fileID: 438991928}
+  m_RootOrder: 82
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1064653411
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064653409}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1064653412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064653409}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7, y: 2, z: 0.25}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1064653413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064653409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
+  direccion: {fileID: 0}
+  adjacentes: []
+--- !u!65 &1064653414
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064653409}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 7, z: 0.25}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1064653415
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064653409}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1064653416
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064653409}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1069842802
 GameObject:
   m_ObjectHideFlags: 0
@@ -42194,7 +42974,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1069842806
 MeshRenderer:
@@ -42324,11 +43104,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 95413061}
-  distancia: 0
-  distanciaTexto: {fileID: 1487978489}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1079365227
@@ -42730,7 +43510,7 @@ GameObject:
   - component: {fileID: 1092144184}
   - component: {fileID: 1092144183}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42869,7 +43649,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1095522622
 MeshRenderer:
@@ -43557,11 +44337,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 742233692}
-  distancia: 0
-  distanciaTexto: {fileID: 425693043}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1111063407
@@ -43891,11 +44671,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 989309332}
-  distancia: 0
-  distanciaTexto: {fileID: 812319007}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1119262031
@@ -44082,6 +44862,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119622575}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1123444765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123444766}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123444766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123444765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.2, y: 13.093929, z: 10.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1123788753
 GameObject:
   m_ObjectHideFlags: 0
@@ -44563,7 +45373,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1150612277
 MeshRenderer:
@@ -44670,7 +45480,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1151801025
 MeshRenderer:
@@ -44887,7 +45697,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1167264343
 MeshRenderer:
@@ -45104,7 +45914,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1171503483
 MeshRenderer:
@@ -45279,7 +46089,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1846324203}
-  - {fileID: 461878878}
   m_Father: {fileID: 1548107421}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
@@ -45480,7 +46289,7 @@ GameObject:
   - component: {fileID: 1180271708}
   - component: {fileID: 1180271707}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45573,7 +46382,7 @@ GameObject:
   - component: {fileID: 1203923540}
   - component: {fileID: 1203923539}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45805,7 +46614,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1218823561
 MeshRenderer:
@@ -45866,7 +46675,7 @@ GameObject:
   - component: {fileID: 1222101387}
   - component: {fileID: 1222101386}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46028,11 +46837,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 446400096}
-  distancia: 0
-  distanciaTexto: {fileID: 424695211}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1224943143
@@ -46246,7 +47055,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1249434804
 MeshRenderer:
@@ -46500,11 +47309,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 758555885}
-  distancia: 0
-  distanciaTexto: {fileID: 694264488}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1254079954
@@ -46625,7 +47434,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1262295058
 MeshRenderer:
@@ -46755,11 +47564,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 994331037}
-  distancia: 0
-  distanciaTexto: {fileID: 1406728796}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1265021305
@@ -47004,7 +47813,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1265743236
 MeshRenderer:
@@ -47483,7 +48292,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1271734222
 MeshRenderer:
@@ -47590,7 +48399,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1274951056
 MeshRenderer:
@@ -47720,11 +48529,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1370435131}
-  distancia: 0
-  distanciaTexto: {fileID: 1467495091}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1279355630
@@ -47845,7 +48654,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1289425463
 MeshRenderer:
@@ -47906,7 +48715,7 @@ GameObject:
   - component: {fileID: 1292455128}
   - component: {fileID: 1292455127}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48155,7 +48964,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1295508338
 MeshRenderer:
@@ -48262,7 +49071,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1300683185
 MeshRenderer:
@@ -48619,7 +49428,7 @@ GameObject:
   - component: {fileID: 1322426719}
   - component: {fileID: 1322426718}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48758,7 +49567,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1323617059
 MeshRenderer:
@@ -48819,7 +49628,7 @@ GameObject:
   - component: {fileID: 1328504728}
   - component: {fileID: 1328504727}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49215,11 +50024,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 282628500}
-  distancia: 0
-  distanciaTexto: {fileID: 786652133}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1342559740
@@ -49404,7 +50213,7 @@ GameObject:
   - component: {fileID: 1350453622}
   - component: {fileID: 1350453621}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49497,7 +50306,7 @@ GameObject:
   - component: {fileID: 1353756876}
   - component: {fileID: 1353756875}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49636,7 +50445,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1355142832
 MeshRenderer:
@@ -49890,11 +50699,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 823269064}
-  distancia: 0
-  distanciaTexto: {fileID: 701100461}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1361889407
@@ -50015,7 +50824,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1362367514
 MeshRenderer:
@@ -50076,7 +50885,7 @@ GameObject:
   - component: {fileID: 1363766461}
   - component: {fileID: 1363766460}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50169,7 +50978,7 @@ GameObject:
   - component: {fileID: 1368123979}
   - component: {fileID: 1368123978}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50262,7 +51071,7 @@ GameObject:
   - component: {fileID: 1370435132}
   - component: {fileID: 1370435131}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50734,11 +51543,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1031233664}
-  distancia: 0
-  distanciaTexto: {fileID: 1944131065}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1372825750
@@ -50813,7 +51622,7 @@ GameObject:
   - component: {fileID: 1373109694}
   - component: {fileID: 1373109693}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50906,7 +51715,7 @@ GameObject:
   - component: {fileID: 1379380084}
   - component: {fileID: 1379380083}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51068,11 +51877,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 562790014}
-  distancia: 0
-  distanciaTexto: {fileID: 2127625101}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1379463640
@@ -51193,7 +52002,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1379895606
 MeshRenderer:
@@ -51474,7 +52283,7 @@ GameObject:
   - component: {fileID: 1386150478}
   - component: {fileID: 1386150477}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51567,7 +52376,7 @@ GameObject:
   - component: {fileID: 1387488984}
   - component: {fileID: 1387488983}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51816,7 +52625,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1388555321
 MeshRenderer:
@@ -51946,11 +52755,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1379380083}
-  distancia: 0
-  distanciaTexto: {fileID: 1203923539}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1388607336
@@ -52025,7 +52834,7 @@ GameObject:
   - component: {fileID: 1388679902}
   - component: {fileID: 1388679901}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52274,7 +53083,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1396122161
 MeshRenderer:
@@ -52445,7 +53254,7 @@ GameObject:
   - component: {fileID: 1397554260}
   - component: {fileID: 1397554259}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52631,7 +53440,7 @@ GameObject:
   - component: {fileID: 1406728797}
   - component: {fileID: 1406728796}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52712,6 +53521,99 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &1407404561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1407404565}
+  - component: {fileID: 1407404564}
+  - component: {fileID: 1407404563}
+  - component: {fileID: 1407404562}
+  m_Layer: 0
+  m_Name: A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1407404562
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407404561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1407404563
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407404561}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1407404564
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407404561}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1407404565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407404561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 35.1, y: 19.052284, z: -39.14334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1413512750
 GameObject:
   m_ObjectHideFlags: 0
@@ -52894,7 +53796,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1417262562
 MeshRenderer:
@@ -53024,11 +53926,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 182246418}
-  distancia: 0
-  distanciaTexto: {fileID: 1901069653}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1418028076
@@ -53227,7 +54129,7 @@ GameObject:
   - component: {fileID: 1431365183}
   - component: {fileID: 1431365182}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53724,7 +54626,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1448688476
 MeshRenderer:
@@ -54033,7 +54935,7 @@ GameObject:
   - component: {fileID: 1461510188}
   - component: {fileID: 1461510187}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54126,7 +55028,7 @@ GameObject:
   - component: {fileID: 1467495092}
   - component: {fileID: 1467495091}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54701,7 +55603,7 @@ GameObject:
   - component: {fileID: 1487978490}
   - component: {fileID: 1487978489}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55204,11 +56106,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 49107758}
-  distancia: 0
-  distanciaTexto: {fileID: 2013969910}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1511878535
@@ -55445,11 +56347,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 962776995}
-  distancia: 0
-  distanciaTexto: {fileID: 401912198}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1521888429
@@ -55524,7 +56426,7 @@ GameObject:
   - component: {fileID: 1523463792}
   - component: {fileID: 1523463791}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56424,7 +57326,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1541016489
 MeshRenderer:
@@ -56531,7 +57433,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1541209698
 MeshRenderer:
@@ -56612,6 +57514,7 @@ Transform:
   - {fileID: 1972131442}
   - {fileID: 1549947850}
   - {fileID: 1175938061}
+  - {fileID: 461878878}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 0}
@@ -56787,7 +57690,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1550845920
 MeshRenderer:
@@ -57065,7 +57968,7 @@ GameObject:
   - component: {fileID: 1553103747}
   - component: {fileID: 1553103746}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57282,7 +58185,7 @@ GameObject:
   - component: {fileID: 1562659219}
   - component: {fileID: 1562659218}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57545,7 +58448,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1566313206
 MeshRenderer:
@@ -57652,7 +58555,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1566365709
 MeshRenderer:
@@ -57906,11 +58809,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 944487786}
-  distancia: 0
-  distanciaTexto: {fileID: 168816650}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1570944418
@@ -58265,7 +59168,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1588651072
 MeshRenderer:
@@ -58395,11 +59298,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1523463791}
-  distancia: 0
-  distanciaTexto: {fileID: 744382612}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1592554736
@@ -58644,7 +59547,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1602712208
 MeshRenderer:
@@ -58774,11 +59677,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 344170348}
-  distancia: 0
-  distanciaTexto: {fileID: 84977913}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1608707112
@@ -58899,7 +59802,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1609155118
 MeshRenderer:
@@ -59153,11 +60056,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1810016821}
-  distancia: 0
-  distanciaTexto: {fileID: 101901193}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1620069403
@@ -59278,7 +60181,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1626647141
 MeshRenderer:
@@ -59509,7 +60412,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1628535979
 MeshRenderer:
@@ -59709,7 +60612,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1634125238
 MeshRenderer:
@@ -59770,7 +60673,7 @@ GameObject:
   - component: {fileID: 1634439280}
   - component: {fileID: 1634439279}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60033,7 +60936,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1635268628
 MeshRenderer:
@@ -60264,7 +61167,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1641616349
 MeshRenderer:
@@ -60481,7 +61384,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1642613744
 MeshRenderer:
@@ -60776,7 +61679,7 @@ GameObject:
   - component: {fileID: 1658881687}
   - component: {fileID: 1658881686}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60938,11 +61841,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 410904927}
-  distancia: 0
-  distanciaTexto: {fileID: 372321423}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1664001806
@@ -61086,11 +61989,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 693853291}
-  distancia: 0
-  distanciaTexto: {fileID: 1758406224}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1665773623
@@ -61234,11 +62137,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 917612333}
-  distancia: 0
-  distanciaTexto: {fileID: 2045715653}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1666169101
@@ -61596,6 +62499,99 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669551050}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1670510421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1670510422}
+  - component: {fileID: 1670510424}
+  - component: {fileID: 1670510423}
+  m_Layer: 0
+  m_Name: Total
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1670510422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670510421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1064653410}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1670510423
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670510421}
+  m_Text: '-'
+  m_OffsetZ: 0
+  m_CharacterSize: 0.75
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278249713
+--- !u!23 &1670510424
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670510421}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -62036,11 +63032,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1739801624}
-  distancia: 0
-  distanciaTexto: {fileID: 1896882567}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1683141065
@@ -62349,7 +63345,7 @@ GameObject:
   - component: {fileID: 1694837566}
   - component: {fileID: 1694837565}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62430,6 +63426,99 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &1696486645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1696486649}
+  - component: {fileID: 1696486648}
+  - component: {fileID: 1696486647}
+  - component: {fileID: 1696486646}
+  m_Layer: 0
+  m_Name: C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!135 &1696486646
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696486645}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1696486647
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696486645}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1696486648
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696486645}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1696486649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696486645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 49.1, y: 19.052284, z: -49.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1700529959
 GameObject:
   m_ObjectHideFlags: 0
@@ -62442,7 +63531,7 @@ GameObject:
   - component: {fileID: 1700529962}
   - component: {fileID: 1700529961}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62581,7 +63670,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1700776516
 MeshRenderer:
@@ -62642,7 +63731,7 @@ GameObject:
   - component: {fileID: 1702803421}
   - component: {fileID: 1702803420}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63052,11 +64141,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 421522191}
-  distancia: 0
-  distanciaTexto: {fileID: 13818093}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1706440154
@@ -63287,7 +64376,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1708932493
 MeshRenderer:
@@ -63813,7 +64902,7 @@ GameObject:
   - component: {fileID: 1729563947}
   - component: {fileID: 1729563946}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64099,11 +65188,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1562659218}
-  distancia: 0
-  distanciaTexto: {fileID: 1694837565}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1735588906
@@ -64224,7 +65313,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1736769127
 MeshRenderer:
@@ -64285,7 +65374,7 @@ GameObject:
   - component: {fileID: 1739801625}
   - component: {fileID: 1739801624}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64552,6 +65641,116 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &1746395874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1746395875}
+  - component: {fileID: 1746395879}
+  - component: {fileID: 1746395878}
+  - component: {fileID: 1746395877}
+  - component: {fileID: 1746395876}
+  m_Layer: 0
+  m_Name: Cuerpo
+  m_TagString: Nodo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1746395875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746395874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 0.15}
+  m_Children: []
+  m_Father: {fileID: 1064653410}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1746395876
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746395874}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1746395877
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746395874}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1746395878
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746395874}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e014fcd380b99fb449a3044b8a39d1d7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1746395879
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746395874}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1747020067
 GameObject:
   m_ObjectHideFlags: 0
@@ -64610,7 +65809,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1747020071
 MeshRenderer:
@@ -64671,7 +65870,7 @@ GameObject:
   - component: {fileID: 1751724214}
   - component: {fileID: 1751724213}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64833,11 +66032,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1658881686}
-  distancia: 0
-  distanciaTexto: {fileID: 261350484}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1756041390
@@ -64912,7 +66111,7 @@ GameObject:
   - component: {fileID: 1758406225}
   - component: {fileID: 1758406224}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65005,7 +66204,7 @@ GameObject:
   - component: {fileID: 1760303847}
   - component: {fileID: 1760303846}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65268,7 +66467,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1764497840
 MeshRenderer:
@@ -65329,7 +66528,7 @@ GameObject:
   - component: {fileID: 1765851139}
   - component: {fileID: 1765851138}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65422,7 +66621,7 @@ GameObject:
   - component: {fileID: 1766511750}
   - component: {fileID: 1766511749}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65515,7 +66714,7 @@ GameObject:
   - component: {fileID: 1767234998}
   - component: {fileID: 1767234997}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65677,11 +66876,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 701249293}
-  distancia: 0
-  distanciaTexto: {fileID: 479320387}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1767695334
@@ -66019,7 +67218,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1777191871
 MeshRenderer:
@@ -66149,11 +67348,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1050968112}
-  distancia: 0
-  distanciaTexto: {fileID: 1765851138}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1777716711
@@ -66274,7 +67473,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1778280372
 MeshRenderer:
@@ -66505,7 +67704,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1787797001
 MeshRenderer:
@@ -66612,7 +67811,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1789645708
 MeshRenderer:
@@ -66719,7 +67918,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1790134490
 MeshRenderer:
@@ -66890,7 +68089,7 @@ GameObject:
   - component: {fileID: 1790534470}
   - component: {fileID: 1790534469}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67263,7 +68462,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1803028491
 MeshRenderer:
@@ -67312,6 +68511,117 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1803028487}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1809382895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1809382899}
+  - component: {fileID: 1809382898}
+  - component: {fileID: 1809382897}
+  - component: {fileID: 1809382896}
+  - component: {fileID: 1809382900}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1809382896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809382895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1809382897
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809382895}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 555cbed2bba592a488b30aa2ac63cd53, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1809382898
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809382895}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1809382899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809382895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 51.642, y: 10.745171, z: -22.31}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1809382900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809382895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0796385fbacde3e4e84b1f6077ad77b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1407404565}
+  - {fileID: 114600939}
+  - {fileID: 1696486649}
+  speed: 25
 --- !u!1 &1810016819
 GameObject:
   m_ObjectHideFlags: 0
@@ -67324,7 +68634,7 @@ GameObject:
   - component: {fileID: 1810016822}
   - component: {fileID: 1810016821}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67573,7 +68883,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1818483412
 MeshRenderer:
@@ -67634,7 +68944,7 @@ GameObject:
   - component: {fileID: 1819933346}
   - component: {fileID: 1819933345}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68268,7 +69578,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1848741023
 MeshRenderer:
@@ -68485,7 +69795,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1859883907
 MeshRenderer:
@@ -68795,7 +70105,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1865798594
 MeshRenderer:
@@ -68856,7 +70166,7 @@ GameObject:
   - component: {fileID: 1873391368}
   - component: {fileID: 1873391367}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69018,11 +70328,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1353756875}
-  distancia: 0
-  distanciaTexto: {fileID: 620850350}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1879624246
@@ -69143,7 +70453,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1885701138
 MeshRenderer:
@@ -69250,7 +70560,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1888897974
 MeshRenderer:
@@ -69473,11 +70783,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1634439279}
-  distancia: 0
-  distanciaTexto: {fileID: 738954122}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1896154364
@@ -69552,7 +70862,7 @@ GameObject:
   - component: {fileID: 1896882568}
   - component: {fileID: 1896882567}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69755,7 +71065,7 @@ GameObject:
   - component: {fileID: 1901069654}
   - component: {fileID: 1901069653}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69894,7 +71204,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1906663017
 MeshRenderer:
@@ -70024,11 +71334,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1909091961}
-  distancia: 0
-  distanciaTexto: {fileID: 657722926}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1907868318
@@ -70103,7 +71413,7 @@ GameObject:
   - component: {fileID: 1909091962}
   - component: {fileID: 1909091961}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70196,7 +71506,7 @@ GameObject:
   - component: {fileID: 1914745561}
   - component: {fileID: 1914745560}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70245,6 +71555,99 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914745558}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1919148222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919148223}
+  - component: {fileID: 1919148225}
+  - component: {fileID: 1919148224}
+  m_Layer: 0
+  m_Name: Hs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1919148223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919148222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1064653410}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1919148224
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919148222}
+  m_Text: 12
+  m_OffsetZ: 0
+  m_CharacterSize: 0.5
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294901797
+--- !u!23 &1919148225
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919148222}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -70335,7 +71738,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1925020594
 MeshRenderer:
@@ -70575,11 +71978,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 517700479}
-  distancia: 0
-  distanciaTexto: {fileID: 1729563946}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1927726037
@@ -70700,7 +72103,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1930402375
 MeshRenderer:
@@ -70995,7 +72398,7 @@ GameObject:
   - component: {fileID: 1944131066}
   - component: {fileID: 1944131065}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71088,7 +72491,7 @@ GameObject:
   - component: {fileID: 1944209218}
   - component: {fileID: 1944209217}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71250,11 +72653,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1322426718}
-  distancia: 0
-  distanciaTexto: {fileID: 1553103746}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1945019758
@@ -71687,7 +73090,7 @@ GameObject:
   - component: {fileID: 1956419739}
   - component: {fileID: 1956419738}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72472,7 +73875,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1983700317
 MeshRenderer:
@@ -72521,6 +73924,99 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983700313}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1984671053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1984671054}
+  - component: {fileID: 1984671056}
+  - component: {fileID: 1984671055}
+  m_Layer: 0
+  m_Name: Hs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1984671054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984671053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475944188}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1984671055
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984671053}
+  m_Text: 12
+  m_OffsetZ: 0
+  m_CharacterSize: 0.5
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294901797
+--- !u!23 &1984671056
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984671053}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &1984724529
 GameObject:
   m_ObjectHideFlags: 0
@@ -72533,7 +74029,7 @@ GameObject:
   - component: {fileID: 1984724532}
   - component: {fileID: 1984724531}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72695,11 +74191,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 2035793212}
-  distancia: 0
-  distanciaTexto: {fileID: 180070528}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &1989232313
@@ -72774,7 +74270,7 @@ GameObject:
   - component: {fileID: 1992644824}
   - component: {fileID: 1992644823}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72936,11 +74432,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 2021167995}
-  distancia: 0
-  distanciaTexto: {fileID: 369232110}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &2000722839
@@ -73208,11 +74704,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 440951441}
-  distancia: 0
-  distanciaTexto: {fileID: 2060117922}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &2003404840
@@ -73333,7 +74829,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2005534950
 MeshRenderer:
@@ -73487,7 +74983,7 @@ GameObject:
   - component: {fileID: 2013969911}
   - component: {fileID: 2013969910}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73719,7 +75215,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2017222323
 MeshRenderer:
@@ -73780,7 +75276,7 @@ GameObject:
   - component: {fileID: 2021167996}
   - component: {fileID: 2021167995}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74200,7 +75696,7 @@ GameObject:
   - component: {fileID: 2035793213}
   - component: {fileID: 2035793212}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74362,11 +75858,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1461510187}
-  distancia: 0
-  distanciaTexto: {fileID: 1387488983}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &2040227185
@@ -74487,7 +75983,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2042442069
 MeshRenderer:
@@ -74617,11 +76113,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 682938431}
-  distancia: 0
-  distanciaTexto: {fileID: 1027388751}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &2043732546
@@ -74696,7 +76192,7 @@ GameObject:
   - component: {fileID: 2045715654}
   - component: {fileID: 2045715653}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74913,7 +76409,7 @@ GameObject:
   - component: {fileID: 2052752255}
   - component: {fileID: 2052752254}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75300,7 +76796,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2055645663
 MeshRenderer:
@@ -75719,7 +77215,7 @@ GameObject:
   - component: {fileID: 2058496122}
   - component: {fileID: 2058496121}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75905,7 +77401,7 @@ GameObject:
   - component: {fileID: 2060117923}
   - component: {fileID: 2060117922}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76408,11 +77904,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 127153157}
-  distancia: 0
-  distanciaTexto: {fileID: 1984724531}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &2072556766
@@ -76632,7 +78128,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2075560107
 MeshRenderer:
@@ -76739,7 +78235,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2077307555
 MeshRenderer:
@@ -77003,7 +78499,7 @@ GameObject:
   - component: {fileID: 2097248567}
   - component: {fileID: 2097248566}
   m_Layer: 0
-  m_Name: Trabajo
+  m_Name: Gs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77266,7 +78762,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2107885127
 MeshRenderer:
@@ -77373,7 +78869,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2118390331
 MeshRenderer:
@@ -77434,7 +78930,7 @@ GameObject:
   - component: {fileID: 2127625102}
   - component: {fileID: 2127625101}
   m_Layer: 0
-  m_Name: Distancia
+  m_Name: Hs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77807,7 +79303,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.35, z: 1}
+  m_Size: {x: 1, y: 1.75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2133831349
 MeshRenderer:
@@ -78061,11 +79557,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cb847036083f04cb279b68b7d72c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trabajo: 0
-  trabajoTexto: {fileID: 1751724213}
-  distancia: 0
-  distanciaTexto: {fileID: 1702803420}
-  totalTexto: {fileID: 0}
+  Gs: 0
+  GsTexto: {fileID: 0}
+  Hs: 0
+  HsTexto: {fileID: 0}
+  Fs: {fileID: 0}
   direccion: {fileID: 0}
   adjacentes: []
 --- !u!65 &2143133345
