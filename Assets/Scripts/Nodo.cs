@@ -11,7 +11,7 @@ public class Nodo : MonoBehaviour
     public TextMesh HsTexto;
     public TextMesh Fs;     //heuristica
 
-    public Nodo direccion;
+    public Nodo parent;
 
     public List<Nodo> adjacentes;
 
