@@ -5,10 +5,17 @@ using UnityEngine;
 public class PathDisplay : MonoBehaviour
 {
 
-    public List<Transform> nodes;
+    public static PathDisplay instance;
+
+    public List<Vector3> nodes;
     int currentNode = 0;
     float currentDelta;
     public float speed;
+
+    void Start()
+    {
+        instance = this;
+    }
 
     void Update()
     {
@@ -22,11 +29,11 @@ public class PathDisplay : MonoBehaviour
         if(nodes.Count > 1)
         {
             //Mientras no haya llegado al siguiente Nodo avanzara en direccion al Nodo siguiente
-            if (Vector3.Distance(transform.position, nodes[currentNode + 1].position) >= 0.5f)
+            if (Vector3.Distance(transform.position, nodes[currentNode + 1]) >= 0.5f)
             {
                 currentDelta += speed * Time.deltaTime;
                 transform.LookAt(nodes[currentNode + 1]);
-                transform.position = Vector3.MoveTowards(nodes[currentNode].position, nodes[currentNode + 1].position, currentDelta);
+                transform.position = Vector3.MoveTowards(nodes[currentNode], nodes[currentNode + 1], currentDelta);
             }
             else
             {
@@ -41,6 +48,15 @@ public class PathDisplay : MonoBehaviour
                 }
                 currentDelta = 0;
             }
+        }
+    }
+
+    public void SetPathDisplay(CaminoCompleto camino)
+    {
+        nodes.Clear();
+        foreach (Nodo item in camino.caminoNodo)
+        {
+            nodes.Add(item.GetTransform().position);
         }
     }
 }

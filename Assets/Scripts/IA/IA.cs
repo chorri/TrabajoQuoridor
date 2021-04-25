@@ -40,13 +40,14 @@ public class IA : MonoBehaviour
                 break;
             case EstadoIA.Act:
                 foreach (Nodo item in objetivos) {
-                    CaminoCompleto temp = new CaminoCompleto();
-                    temp = Pathfinding.instance.AStar(nodoActual,item);
+                    CaminoCompleto rpta = new CaminoCompleto();
+                    rpta = Pathfinding.instance.AStar(nodoActual,item);
+                    PathDisplay.instance.SetPathDisplay(rpta);
 
-                    todosCaminos.Add(temp);
+                    todosCaminos.Add(rpta);
 
-                    if (caminoObjetivo.caminoNodo.Count == 0 || temp.caminoNodo.Count < caminoObjetivo.caminoNodo.Count) {
-                        caminoObjetivo = temp;
+                    if (caminoObjetivo.caminoNodo.Count == 0 || rpta.caminoNodo.Count < caminoObjetivo.caminoNodo.Count) {
+                        caminoObjetivo = rpta;
                     }
                 }
                 timeStart = Time.time;

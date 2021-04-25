@@ -424,7 +424,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &2982921
 BoxCollider:
@@ -572,7 +572,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &7039093
 BoxCollider:
@@ -1120,7 +1120,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &18206968
 BoxCollider:
@@ -1361,7 +1361,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &31557442
 BoxCollider:
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &32853244
 BoxCollider:
@@ -2215,7 +2215,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &55272103
 BoxCollider:
@@ -2780,7 +2780,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &62562955
 BoxCollider:
@@ -2928,7 +2928,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &64519585
 BoxCollider:
@@ -3276,7 +3276,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &76905708
 BoxCollider:
@@ -4172,7 +4172,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &109166383
 BoxCollider:
@@ -4937,7 +4937,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &125713873
 BoxCollider:
@@ -6469,7 +6469,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &163743735
 BoxCollider:
@@ -7236,7 +7236,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &175003601
 BoxCollider:
@@ -7384,7 +7384,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &176571612
 BoxCollider:
@@ -8537,7 +8537,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &192765557
 BoxCollider:
@@ -9967,7 +9967,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &230085834
 BoxCollider:
@@ -11693,7 +11693,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &275364575
 BoxCollider:
@@ -13340,7 +13340,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &346203404
 BoxCollider:
@@ -14294,7 +14294,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &371846121
 BoxCollider:
@@ -15265,7 +15265,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &391145423
 BoxCollider:
@@ -15661,7 +15661,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &393512260
 BoxCollider:
@@ -18557,7 +18557,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461878877}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.70710677}
-  m_LocalPosition: {x: 14.95, y: -0.060000062, z: -0.5000002}
+  m_LocalPosition: {x: 17.95, y: -14.81, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1179637850}
@@ -19078,7 +19078,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &475944192
 BoxCollider:
@@ -19533,7 +19533,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &484792413
 BoxCollider:
@@ -20643,7 +20643,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &512841659
 BoxCollider:
@@ -20838,7 +20838,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &513194845
 BoxCollider:
@@ -21513,7 +21513,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &522307646
 BoxCollider:
@@ -23801,7 +23801,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &597150850
 BoxCollider:
@@ -24397,7 +24397,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &605176876
 BoxCollider:
@@ -24945,7 +24945,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &623063854
 BoxCollider:
@@ -26045,7 +26045,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &644304253
 BoxCollider:
@@ -26317,7 +26317,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &652743232
 BoxCollider:
@@ -28353,7 +28353,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &703800907
 BoxCollider:
@@ -28842,7 +28842,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &711770385
 BoxCollider:
@@ -30709,7 +30709,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &757235245
 BoxCollider:
@@ -32083,7 +32083,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &783184934
 BoxCollider:
@@ -32231,7 +32231,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &783469030
 BoxCollider:
@@ -35352,7 +35352,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &899538858
 BoxCollider:
@@ -36027,7 +36027,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &925505809
 BoxCollider:
@@ -36595,7 +36595,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &934438910
 BoxCollider:
@@ -36867,7 +36867,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &935946092
 BoxCollider:
@@ -37418,7 +37418,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &943338678
 BoxCollider:
@@ -42227,7 +42227,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1050044388
 BoxCollider:
@@ -42854,7 +42854,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1064653414
 BoxCollider:
@@ -43109,7 +43109,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1079365227
 BoxCollider:
@@ -44342,7 +44342,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1111063407
 BoxCollider:
@@ -44676,7 +44676,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1119262031
 BoxCollider:
@@ -46085,7 +46085,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175938060}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 3, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 2.75, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1846324203}
@@ -46842,7 +46842,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1224943143
 BoxCollider:
@@ -47314,7 +47314,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1254079954
 BoxCollider:
@@ -47569,7 +47569,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1265021305
 BoxCollider:
@@ -48534,7 +48534,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1279355630
 BoxCollider:
@@ -50029,7 +50029,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1342559740
 BoxCollider:
@@ -50704,7 +50704,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1361889407
 BoxCollider:
@@ -51548,7 +51548,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1372825750
 BoxCollider:
@@ -51882,7 +51882,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1379463640
 BoxCollider:
@@ -52760,7 +52760,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1388607336
 BoxCollider:
@@ -53931,7 +53931,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1418028076
 BoxCollider:
@@ -56111,7 +56111,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1511878535
 BoxCollider:
@@ -56352,7 +56352,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1521888429
 BoxCollider:
@@ -58814,7 +58814,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1570944418
 BoxCollider:
@@ -59303,7 +59303,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1592554736
 BoxCollider:
@@ -59682,7 +59682,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1608707112
 BoxCollider:
@@ -60061,7 +60061,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1620069403
 BoxCollider:
@@ -61846,7 +61846,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1664001806
 BoxCollider:
@@ -61994,7 +61994,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1665773623
 BoxCollider:
@@ -62142,7 +62142,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1666169101
 BoxCollider:
@@ -63037,7 +63037,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1683141065
 BoxCollider:
@@ -64146,7 +64146,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1706440154
 BoxCollider:
@@ -65193,7 +65193,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1735588906
 BoxCollider:
@@ -66037,7 +66037,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1756041390
 BoxCollider:
@@ -66881,7 +66881,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1767695334
 BoxCollider:
@@ -67353,7 +67353,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1777716711
 BoxCollider:
@@ -68539,7 +68539,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809382895}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -68600,7 +68600,7 @@ Transform:
   m_GameObject: {fileID: 1809382895}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 51.642, y: 10.745171, z: -22.31}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 3}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1.02804}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -68617,10 +68617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0796385fbacde3e4e84b1f6077ad77b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodes:
-  - {fileID: 1407404565}
-  - {fileID: 114600939}
-  - {fileID: 1696486649}
+  nodes: []
   speed: 25
 --- !u!1 &1810016819
 GameObject:
@@ -70333,7 +70330,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1879624246
 BoxCollider:
@@ -70788,7 +70785,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1896154364
 BoxCollider:
@@ -71339,7 +71336,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1907868318
 BoxCollider:
@@ -71983,7 +71980,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1927726037
 BoxCollider:
@@ -72658,7 +72655,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1945019758
 BoxCollider:
@@ -74196,7 +74193,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &1989232313
 BoxCollider:
@@ -74437,7 +74434,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &2000722839
 BoxCollider:
@@ -74709,7 +74706,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &2003404840
 BoxCollider:
@@ -75863,7 +75860,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &2040227185
 BoxCollider:
@@ -76118,7 +76115,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &2043732546
 BoxCollider:
@@ -77909,7 +77906,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &2072556766
 BoxCollider:
@@ -79562,7 +79559,7 @@ MonoBehaviour:
   Hs: 0
   HsTexto: {fileID: 0}
   Fs: {fileID: 0}
-  direccion: {fileID: 0}
+  parent: {fileID: 0}
   adjacentes: []
 --- !u!65 &2143133345
 BoxCollider:
