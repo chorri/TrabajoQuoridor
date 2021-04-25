@@ -28,16 +28,16 @@ public class IA : MonoBehaviour
     {
         switch (currentState) {
             case EstadoIA.Wait:
-                if (Input.GetKeyDown(KeyCode.Escape)) {
+                if (Input.GetKeyDown(KeyCode.KeypadEnter)) {
                     currentState = EstadoIA.Act;
                     caminoObjetivo = new CaminoCompleto();
                 }
 
-                if (Input.GetKeyDown(KeyCode.Q)) {
-                    caminoObjetivo.ShowDirection();
-                    caminoObjetivo.ShowPath(3);
-                    Debug.Log("-");
-                }
+                //if (Input.GetKeyDown(KeyCode.Q)) {
+                //    caminoObjetivo.ShowDirection();
+                //    caminoObjetivo.ShowPath(3);
+                //    Debug.Log("-");
+                //}
                 break;
             case EstadoIA.Act:
                

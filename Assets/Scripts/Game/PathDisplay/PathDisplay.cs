@@ -21,7 +21,7 @@ public class PathDisplay : MonoBehaviour
     void Update()
     {
         //Al presionar el boton S podremos alternar la visibilidad del objeto
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             transform.GetComponent<MeshRenderer>().enabled = !transform.GetComponent<MeshRenderer>().enabled;
             particles.SetActive(!particles.activeSelf);

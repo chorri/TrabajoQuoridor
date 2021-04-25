@@ -26,9 +26,14 @@ public class Game_Manager : MonoBehaviour
     void Update()
     {
         //ResetLevel when pressing O
-        if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
 
         switch (currentGameState)

@@ -31,10 +31,10 @@ public class Nodo : MonoBehaviour
     void Update()
     {
         //Presionando R se resetean los valores visuales de los nodos
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            ResetValues();
-        }
+        //if (Input.GetKeyDown(KeyCode.R))
+        //{
+        //    ResetValues();
+        //}
 
         //Dibuja la linea roja entre los diferentes Nodos
         foreach (var i in adjacentes) {
