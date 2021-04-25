@@ -20,13 +20,13 @@ public class PlayerGoalPlacer : MonoBehaviour
         if (Game_Manager.instance.currentGameState == GameState.Start)
         {
             //Place Player
-            if (Input.GetKey(KeyCode.Mouse0))
+            if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 player.position = parent.position + offset;
             }
 
             //Place Goal
-            if (Input.GetKey(KeyCode.Mouse1))
+            if (Input.GetKeyDown(KeyCode.Mouse1))
             {
                 goal.position = parent.position + offset;
             }

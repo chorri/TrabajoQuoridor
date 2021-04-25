@@ -28,10 +28,12 @@ public class IA : MonoBehaviour
     {
         switch (currentState) {
             case EstadoIA.Wait:
-                if (Input.GetKeyDown(KeyCode.KeypadEnter)) {
+                if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)) {
                     currentState = EstadoIA.Act;
                     caminoObjetivo = new CaminoCompleto();
+                    Game_Manager.instance.currentGameState = GameState.Run;
                 }
+
 
                 //if (Input.GetKeyDown(KeyCode.Q)) {
                 //    caminoObjetivo.ShowDirection();
@@ -74,6 +76,7 @@ public class IA : MonoBehaviour
                 } else
                 {
                     currentState = EstadoIA.Wait;
+                    Game_Manager.instance.currentGameState = GameState.Result;
                 }
                 break;
             default:

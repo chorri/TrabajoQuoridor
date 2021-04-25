@@ -92,18 +92,6 @@ public class Pathfinding : MonoBehaviour
                         openList.Add(m);
                     }
                 }
-
-
-                //int nuevoTrabajo = actual.Gs + CalcDistancia(actual, item);
-                //if (nuevoTrabajo < item.Gs || !openList.Contains(item)) {
-                //    item.Gs = nuevoTrabajo;
-                //    item.Hs = CalcDistancia(item, fin);
-                //    item.parent = actual;
-                //
-                //    if (!openList.Contains(item)) {
-                //        openList.Add(item);
-                //    }
-                //}
             }
         }
         //Return Empty
