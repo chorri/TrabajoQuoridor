@@ -7,6 +7,7 @@ public class PathDisplay : MonoBehaviour
 
     public static PathDisplay instance;
 
+    public GameObject particles;
     public List<Vector3> nodes;
     int currentNode = 0;
     float currentDelta;
@@ -23,6 +24,7 @@ public class PathDisplay : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S))
         {
             transform.GetComponent<MeshRenderer>().enabled = !transform.GetComponent<MeshRenderer>().enabled;
+            particles.SetActive(!particles.activeSelf);
         }
 
 
