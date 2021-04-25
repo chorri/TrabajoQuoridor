@@ -11,7 +11,7 @@ public enum EstadoIA {
 public class IA : MonoBehaviour
 {
     public Nodo nodoActual;
-    public List<Nodo> objetivos;
+    public Nodo objetivo;
 
     public EstadoIA currentState;
     CaminoCompleto caminoObjetivo = new CaminoCompleto();
@@ -39,17 +39,17 @@ public class IA : MonoBehaviour
                 }
                 break;
             case EstadoIA.Act:
-                foreach (Nodo item in objetivos) {
-                    CaminoCompleto rpta = new CaminoCompleto();
-                    rpta = Pathfinding.instance.AStar(nodoActual,item);
-                    PathDisplay.instance.SetPathDisplay(rpta);
+               
+                CaminoCompleto rpta = new CaminoCompleto();
+                rpta = Pathfinding.instance.AStar(nodoActual,objetivo);
+                PathDisplay.instance.SetPathDisplay(rpta);
 
-                    todosCaminos.Add(rpta);
+                todosCaminos.Add(rpta);
 
-                    if (caminoObjetivo.caminoNodo.Count == 0 || rpta.caminoNodo.Count < caminoObjetivo.caminoNodo.Count) {
-                        caminoObjetivo = rpta;
-                    }
+                if (caminoObjetivo.caminoNodo.Count == 0 || rpta.caminoNodo.Count < caminoObjetivo.caminoNodo.Count) {
+                    caminoObjetivo = rpta;
                 }
+               
                 timeStart = Time.time;
                 currentState = EstadoIA.Move;
                 break;

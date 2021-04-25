@@ -3507,7 +3507,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &79721070
 MeshRenderer:
@@ -3570,9 +3570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &84977911
 GameObject:
   m_ObjectHideFlags: 0
@@ -5186,7 +5184,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &128082811
 MeshRenderer:
@@ -5249,9 +5247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &130847868
 GameObject:
   m_ObjectHideFlags: 0
@@ -5314,7 +5310,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &130847872
 MeshRenderer:
@@ -5377,9 +5373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &132812559
 GameObject:
   m_ObjectHideFlags: 0
@@ -5442,7 +5436,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &132812563
 MeshRenderer:
@@ -5505,9 +5499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &133711469
 GameObject:
   m_ObjectHideFlags: 0
@@ -6097,7 +6089,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &156030857
 MeshRenderer:
@@ -6160,9 +6152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &159387299
 GameObject:
   m_ObjectHideFlags: 0
@@ -6807,7 +6797,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &168898709
 MeshRenderer:
@@ -6870,9 +6860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &170441774
 GameObject:
   m_ObjectHideFlags: 0
@@ -8233,7 +8221,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &192291175
 MeshRenderer:
@@ -8296,9 +8284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &192765552
 GameObject:
   m_ObjectHideFlags: 0
@@ -10032,7 +10018,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &234338474
 MeshRenderer:
@@ -10095,9 +10081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &243814891
 GameObject:
   m_ObjectHideFlags: 0
@@ -12437,7 +12421,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &303195552
 MeshRenderer:
@@ -12500,9 +12484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &307103206
 GameObject:
   m_ObjectHideFlags: 0
@@ -12672,7 +12654,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &316296370
 MeshRenderer:
@@ -12735,9 +12717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &330375743
 GameObject:
   m_ObjectHideFlags: 0
@@ -18443,7 +18423,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &360192790
 MeshRenderer:
@@ -18506,9 +18486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &364316653
 GameObject:
   m_ObjectHideFlags: 0
@@ -19277,7 +19255,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &373117559
 MeshRenderer:
@@ -19340,9 +19318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &373396260
 GameObject:
   m_ObjectHideFlags: 0
@@ -21448,7 +21424,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &423082413
 MeshRenderer:
@@ -21511,9 +21487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &424695209
 GameObject:
   m_ObjectHideFlags: 0
@@ -21869,7 +21843,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &429108107
 MeshRenderer:
@@ -21932,9 +21906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &429288475
 GameObject:
   m_ObjectHideFlags: 0
@@ -22846,7 +22818,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &456926844
 MeshRenderer:
@@ -22909,9 +22881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &458794170
 GameObject:
   m_ObjectHideFlags: 0
@@ -22974,7 +22944,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &458794174
 MeshRenderer:
@@ -23037,9 +23007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &461192321
 GameObject:
   m_ObjectHideFlags: 0
@@ -23102,7 +23070,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &461192325
 MeshRenderer:
@@ -23165,9 +23133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &461360061
 GameObject:
   m_ObjectHideFlags: 0
@@ -24643,7 +24609,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &493317280
 MeshRenderer:
@@ -24706,9 +24672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &498403552
 GameObject:
   m_ObjectHideFlags: 0
@@ -28082,7 +28046,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &595709343
 MeshRenderer:
@@ -28145,9 +28109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &596762658
 GameObject:
   m_ObjectHideFlags: 0
@@ -31629,7 +31591,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &670945683
 MeshRenderer:
@@ -31692,9 +31654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &671899918
 GameObject:
   m_ObjectHideFlags: 0
@@ -32081,7 +32041,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &688436270
 MeshRenderer:
@@ -32144,9 +32104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &693853289
 GameObject:
   m_ObjectHideFlags: 0
@@ -32395,7 +32353,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &696352371
 MeshRenderer:
@@ -32458,9 +32416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &698079776
 GameObject:
   m_ObjectHideFlags: 0
@@ -34011,7 +33967,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &726742772
 MeshRenderer:
@@ -34074,9 +34030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &727101033
 GameObject:
   m_ObjectHideFlags: 0
@@ -35741,7 +35695,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &769548768
 MeshRenderer:
@@ -35804,9 +35758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &770506833
 GameObject:
   m_ObjectHideFlags: 0
@@ -36255,7 +36207,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &776218937
 MeshRenderer:
@@ -36318,9 +36270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &777195222
 GameObject:
   m_ObjectHideFlags: 0
@@ -37206,7 +37156,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &790589098
 MeshRenderer:
@@ -37269,9 +37219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &797273176
 GameObject:
   m_ObjectHideFlags: 0
@@ -38089,7 +38037,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &828803870
 MeshRenderer:
@@ -38152,9 +38100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &838088379
 GameObject:
   m_ObjectHideFlags: 0
@@ -38665,7 +38611,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &847796251
 MeshRenderer:
@@ -38728,9 +38674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &849533522
 GameObject:
   m_ObjectHideFlags: 0
@@ -39517,7 +39461,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &887297408
 MeshRenderer:
@@ -39580,9 +39524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &892073716
 GameObject:
   m_ObjectHideFlags: 0
@@ -39752,7 +39694,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &896167612
 MeshRenderer:
@@ -39815,9 +39757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &896319818
 GameObject:
   m_ObjectHideFlags: 0
@@ -39880,7 +39820,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &896319822
 MeshRenderer:
@@ -39943,9 +39883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &897861110
 GameObject:
   m_ObjectHideFlags: 0
@@ -40924,7 +40862,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &926414359
 MeshRenderer:
@@ -40987,9 +40925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &930463542
 GameObject:
   m_ObjectHideFlags: 0
@@ -41145,7 +41081,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &932133780
 MeshRenderer:
@@ -41208,9 +41144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &934203321
 GameObject:
   m_ObjectHideFlags: 0
@@ -42444,7 +42378,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &944998441
 MeshRenderer:
@@ -42507,9 +42441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &945183275
 GameObject:
   m_ObjectHideFlags: 0
@@ -42910,7 +42842,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &953505300
 MeshRenderer:
@@ -42973,9 +42905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &954577846
 GameObject:
   m_ObjectHideFlags: 0
@@ -43472,7 +43402,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &962842390
 MeshRenderer:
@@ -43535,9 +43465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &964948352
 GameObject:
   m_ObjectHideFlags: 0
@@ -43831,7 +43759,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &967019666
 MeshRenderer:
@@ -43894,9 +43822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &975377679
 GameObject:
   m_ObjectHideFlags: 0
@@ -43959,7 +43885,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &975377683
 MeshRenderer:
@@ -44022,9 +43948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &981284574
 GameObject:
   m_ObjectHideFlags: 0
@@ -46541,7 +46465,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1040559474
 MeshRenderer:
@@ -46604,9 +46528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1040685771
 GameObject:
   m_ObjectHideFlags: 0
@@ -46776,7 +46698,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1040908005
 MeshRenderer:
@@ -46839,9 +46761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1046009717
 GameObject:
   m_ObjectHideFlags: 0
@@ -47028,7 +46948,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1047111502
 MeshRenderer:
@@ -47091,9 +47011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1050044383
 GameObject:
   m_ObjectHideFlags: 0
@@ -47945,7 +47863,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1081587693
 MeshRenderer:
@@ -48008,9 +47926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1084397004
 GameObject:
   m_ObjectHideFlags: 0
@@ -49792,7 +49708,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1124683596
 MeshRenderer:
@@ -49855,9 +49771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1126064611
 GameObject:
   m_ObjectHideFlags: 0
@@ -49920,7 +49834,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1126064615
 MeshRenderer:
@@ -49983,9 +49897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1137323613
 GameObject:
   m_ObjectHideFlags: 0
@@ -50048,7 +49960,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1137323617
 MeshRenderer:
@@ -50111,9 +50023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1150612273
 GameObject:
   m_ObjectHideFlags: 0
@@ -50390,7 +50300,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1165475627
 MeshRenderer:
@@ -50453,9 +50363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1167264339
 GameObject:
   m_ObjectHideFlags: 0
@@ -50625,7 +50533,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1170919982
 MeshRenderer:
@@ -50688,9 +50596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1171503479
 GameObject:
   m_ObjectHideFlags: 0
@@ -51001,7 +50907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodoActual: {fileID: 0}
-  objetivos: []
+  objetivo: {fileID: 0}
   currentState: 0
 --- !u!54 &1175938066
 Rigidbody:
@@ -53693,7 +53599,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1294470434
 MeshRenderer:
@@ -53756,9 +53662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1295508334
 GameObject:
   m_ObjectHideFlags: 0
@@ -54221,7 +54125,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1313713490
 MeshRenderer:
@@ -54284,9 +54188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1322426716
 GameObject:
   m_ObjectHideFlags: 0
@@ -54766,7 +54668,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1342077016
 MeshRenderer:
@@ -54829,9 +54731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1342559735
 GameObject:
   m_ObjectHideFlags: 0
@@ -55042,7 +54942,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1344484994
 MeshRenderer:
@@ -55105,9 +55005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1350453619
 GameObject:
   m_ObjectHideFlags: 0
@@ -57020,7 +56918,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1382683291
 MeshRenderer:
@@ -57083,9 +56981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1384772353
 GameObject:
   m_ObjectHideFlags: 0
@@ -57148,7 +57044,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1384772357
 MeshRenderer:
@@ -57211,9 +57107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1386150475
 GameObject:
   m_ObjectHideFlags: 0
@@ -57462,7 +57356,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1388236640
 MeshRenderer:
@@ -57525,9 +57419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1388555317
 GameObject:
   m_ObjectHideFlags: 0
@@ -57938,7 +57830,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1389835487
 MeshRenderer:
@@ -58001,9 +57893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1396122157
 GameObject:
   m_ObjectHideFlags: 0
@@ -58173,7 +58063,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1397459216
 MeshRenderer:
@@ -58236,9 +58126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1397554257
 GameObject:
   m_ObjectHideFlags: 0
@@ -59424,7 +59312,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1448536643
 MeshRenderer:
@@ -59487,9 +59375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1448688472
 GameObject:
   m_ObjectHideFlags: 0
@@ -60465,7 +60351,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1480402065
 MeshRenderer:
@@ -60528,9 +60414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1487978487
 GameObject:
   m_ObjectHideFlags: 0
@@ -61602,7 +61486,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1526565660
 MeshRenderer:
@@ -61665,9 +61549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1527843691
 GameObject:
   m_ObjectHideFlags: 0
@@ -63896,7 +63778,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1574545701
 MeshRenderer:
@@ -63959,9 +63841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1575943306
 GameObject:
   m_ObjectHideFlags: 0
@@ -66254,7 +66134,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1641767462
 MeshRenderer:
@@ -66317,9 +66197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1642613740
 GameObject:
   m_ObjectHideFlags: 0
@@ -66489,7 +66367,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1657113040
 MeshRenderer:
@@ -66552,9 +66430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1657202300
 GameObject:
   m_ObjectHideFlags: 0
@@ -67278,7 +67154,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1666328252
 MeshRenderer:
@@ -67341,9 +67217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1668277695
 GameObject:
   m_ObjectHideFlags: 0
@@ -67840,7 +67714,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1676184292
 MeshRenderer:
@@ -67903,9 +67777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1683141060
 GameObject:
   m_ObjectHideFlags: 0
@@ -68240,7 +68112,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1693164800
 MeshRenderer:
@@ -68303,9 +68175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1694837563
 GameObject:
   m_ObjectHideFlags: 0
@@ -69150,7 +69020,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1707195388
 MeshRenderer:
@@ -69213,9 +69083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1708932489
 GameObject:
   m_ObjectHideFlags: 0
@@ -72817,7 +72685,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1790510333
 MeshRenderer:
@@ -72880,9 +72748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1790534467
 GameObject:
   m_ObjectHideFlags: 0
@@ -73038,7 +72904,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1799070220
 MeshRenderer:
@@ -73101,9 +72967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1802562364
 GameObject:
   m_ObjectHideFlags: 0
@@ -73600,7 +73464,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1817133716
 MeshRenderer:
@@ -73663,9 +73527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1818483408
 GameObject:
   m_ObjectHideFlags: 0
@@ -73928,7 +73790,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1828431593
 MeshRenderer:
@@ -73991,9 +73853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1828542191
 GameObject:
   m_ObjectHideFlags: 0
@@ -74548,7 +74408,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1851737207
 MeshRenderer:
@@ -74611,9 +74471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1859883903
 GameObject:
   m_ObjectHideFlags: 0
@@ -74876,7 +74734,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1861628375
 MeshRenderer:
@@ -74939,9 +74797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1865798590
 GameObject:
   m_ObjectHideFlags: 0
@@ -75900,7 +75756,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1898329059
 MeshRenderer:
@@ -75963,9 +75819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1901069651
 GameObject:
   m_ObjectHideFlags: 0
@@ -76669,7 +76523,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1927412819
 MeshRenderer:
@@ -76732,9 +76586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1927726032
 GameObject:
   m_ObjectHideFlags: 0
@@ -77052,7 +76904,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1940613332
 MeshRenderer:
@@ -77115,9 +76967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1943160219
 GameObject:
   m_ObjectHideFlags: 0
@@ -77638,7 +77488,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1945555413
 MeshRenderer:
@@ -77701,9 +77551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1946725330
 GameObject:
   m_ObjectHideFlags: 0
@@ -78107,7 +77955,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1958845515
 MeshRenderer:
@@ -78170,9 +78018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &1964215965
 GameObject:
   m_ObjectHideFlags: 0
@@ -80218,7 +80064,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2021190649
 MeshRenderer:
@@ -80281,9 +80127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &2032816930
 GameObject:
   m_ObjectHideFlags: 0
@@ -81972,7 +81816,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2058307454
 MeshRenderer:
@@ -82035,9 +81879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &2058496119
 GameObject:
   m_ObjectHideFlags: 0
@@ -83274,7 +83116,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2091719611
 MeshRenderer:
@@ -83337,9 +83179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &2097248564
 GameObject:
   m_ObjectHideFlags: 0
@@ -83926,7 +83766,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2133450068
 MeshRenderer:
@@ -83989,9 +83829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1175938061}
   goal: {fileID: 461878878}
-  offset: {x: 0, y: 0, z: 0}
-  start: {fileID: 2100000, guid: cfc38968044d22f488f04be95e58841f, type: 2}
-  end: {fileID: 2100000, guid: d3ef45c7214510842827d327e890c3ee, type: 2}
+  offset: {x: 0, y: 1, z: 0}
 --- !u!1 &2133569456
 GameObject:
   m_ObjectHideFlags: 0

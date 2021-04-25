@@ -8,8 +8,6 @@ public class PlayerGoalPlacer : MonoBehaviour
     public Transform goal;
     Transform parent;
     public Vector3 offset;
-    public Material start;
-    public Material end;
 
     void Start()
     {
@@ -25,14 +23,12 @@ public class PlayerGoalPlacer : MonoBehaviour
             if (Input.GetKey(KeyCode.Mouse0))
             {
                 player.position = parent.position + offset;
-                GetComponent<MeshRenderer>().material = start;
             }
 
             //Place Goal
             if (Input.GetKey(KeyCode.Mouse1))
             {
-                goal.position = goal.position + offset;
-                GetComponent<MeshRenderer>().material = end;
+                goal.position = parent.position + offset;
             }
         }
     }
