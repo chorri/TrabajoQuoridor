@@ -51,4 +51,9 @@ public class Game_Manager : MonoBehaviour
                 break;
         }
     }
+
+    public void AlternateActive(GameObject obj)
+    {
+        obj.SetActive(!obj.activeSelf);
+    }
 }
