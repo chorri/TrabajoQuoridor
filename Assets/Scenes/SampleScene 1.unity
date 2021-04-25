@@ -52511,7 +52511,7 @@ MonoBehaviour:
   objetivo: {fileID: 0}
   currentState: 0
   currentIndex: 0
-  speed: 1.5
+  speed: 3
   minDistance: 0.05
 --- !u!54 &1175938066
 Rigidbody:
