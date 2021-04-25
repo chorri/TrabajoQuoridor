@@ -15,12 +15,13 @@ public class IA : MonoBehaviour
 
     public EstadoIA currentState;
     CaminoCompleto caminoObjetivo = new CaminoCompleto();
+    public int currentIndex;
 
-    //Para mostrar todos los caminos
-    List<CaminoCompleto> todosCaminos = new List<CaminoCompleto>();
-    //Reloj
-    float timeStart;
-    float maxTime = 1.5f;
+    public float speed;
+    float currentDelta;
+
+    //Distancia minima para continuar con el siguiente Nodo
+    public float minDistance = 0.5f;
 
     // Update is called once per frame
     void Update()
@@ -43,32 +44,37 @@ public class IA : MonoBehaviour
                 CaminoCompleto rpta = new CaminoCompleto();
                 rpta = Pathfinding.instance.AStar(nodoActual,objetivo);
                 PathDisplay.instance.SetPathDisplay(rpta);
+                rpta.caminoNodo.Add(nodoActual);
 
-                todosCaminos.Add(rpta);
+                caminoObjetivo = rpta;
 
-                if (caminoObjetivo.caminoNodo.Count == 0 || rpta.caminoNodo.Count < caminoObjetivo.caminoNodo.Count) {
-                    caminoObjetivo = rpta;
-                }
-               
-                timeStart = Time.time;
+                currentIndex = caminoObjetivo.caminoNodo.Count;
                 currentState = EstadoIA.Move;
                 break;
             case EstadoIA.Move:
-                if (todosCaminos.Count > 0) {
-                    if (Time.time - timeStart > maxTime) {
-                        todosCaminos[todosCaminos.Count - 1].ShowPath(1);
-                        todosCaminos[todosCaminos.Count - 1].ShowDirection();
-                        todosCaminos.RemoveAt(todosCaminos.Count - 1);
-                        timeStart = Time.time;
+
+                if (currentIndex > 1)
+                {
+                    if (Vector3.Distance(transform.position, caminoObjetivo.caminoNodo[currentIndex - 2].GetTransform().position) >= minDistance)
+                    {
+                        currentDelta += speed * Time.deltaTime;
+                        transform.position = Vector3.MoveTowards(caminoObjetivo.caminoNodo[currentIndex -1].GetTransform().position,
+                                                                    caminoObjetivo.caminoNodo[currentIndex - 2].GetTransform().position, currentDelta);
+
+                    } else
+                    {
+                        currentIndex--;
+                        currentDelta = 0;
                     }
-                } else {
-                                        if (Time.time - timeStart > maxTime+2) {
-                        caminoObjetivo.ShowPath(1, Color.green);
-                        transform.position = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 1].transform.position;
-                        currentState = EstadoIA.Wait;
-                    }
+                    
+
+                    //caminoObjetivo.ShowPath(1, Color.green);
+                    //transform.position = caminoObjetivo.caminoNodo[caminoObjetivo.caminoNodo.Count - 1].transform.position;
+                    //currentState = EstadoIA.Wait;
+                } else
+                {
+                    currentState = EstadoIA.Wait;
                 }
-                
                 break;
             default:
                 break;
