@@ -52,6 +52,8 @@ public class IA : MonoBehaviour
 
                 currentIndex = caminoObjetivo.caminoNodo.Count;
                 currentState = EstadoIA.Move;
+
+                Game_Manager.instance.testTimeStart = Time.time;
                 break;
             case EstadoIA.Move:
 
@@ -77,6 +79,7 @@ public class IA : MonoBehaviour
                 {
                     currentState = EstadoIA.Wait;
                     Game_Manager.instance.currentGameState = GameState.Result;
+                    Game_Manager.instance.testTimeEnd = Time.time;
                 }
                 break;
             default:

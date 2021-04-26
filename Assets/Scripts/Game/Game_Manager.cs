@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public enum GameState
 {
@@ -15,6 +14,11 @@ public class Game_Manager : MonoBehaviour
 
     public GameState currentGameState;
     public GameObject lightObject;
+    public GameObject resultsObject;
+    public Text resultText;
+
+    public float testTimeStart;
+    public float testTimeEnd;
 
     // Start is called before the first frame update
     void Start()
@@ -45,11 +49,18 @@ public class Game_Manager : MonoBehaviour
                 lightObject.SetActive(true);
                 break;
             case GameState.Result:
+                resultText.text = (testTimeEnd - testTimeStart).ToString("F2") + " segundos";
+                resultsObject.SetActive(true);
                 lightObject.SetActive(false);
                 break;
             default:
                 break;
         }
+    }
+
+    public void ResetGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void AlternateActive(GameObject obj)

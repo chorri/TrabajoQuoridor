@@ -16,7 +16,6 @@ public class PlayerGoalPlacer : MonoBehaviour
 
     private void OnMouseOver()
     {
-        Debug.Log("Test");
         if (Game_Manager.instance.currentGameState == GameState.Start)
         {
             //Place Player
